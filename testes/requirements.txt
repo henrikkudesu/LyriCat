@@ -1,0 +1,23 @@
+# APIs e Integrações
+google-generativeai
+google-genai
+spotipy  # Para integração com a API do Spotify
+requests  # Para chamadas HTTP
+
+# Gerenciamento de Variáveis de Ambiente
+python-dotenv
+
+# Framework Web
+flask
+flask-limiter  # Para limitar requisições por usuário
+
+# Manipulação de Dados e Cache
+hashlib
+json
+
+# Web Scraping
+beautifulsoup4  # Para extração de letras diretamente de páginas HTML
+
+# Utilitários
+pathlib
+ipython  # Para testes interativos e debugging
