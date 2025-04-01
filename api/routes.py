@@ -3,10 +3,8 @@ from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 from .genius_api import get_artist_id, get_artist_songs, fetch_lyrics_from_url
 from .spotify_api import search_artist_info, get_artist_top_tracks
-from .config import API_TIMEOUT
 from . import app
 import os
-import requests
 import hashlib
 import json
 import time
@@ -140,26 +138,26 @@ def process_songs(songs):
     ]
 
 # Rotas da API
-@app.route("/artist_info", methods=["GET"])
-@limiter.limit("10 per minute")
-def get_artist_info():
-    artist_name = request.args.get("artist")
-    if not artist_name:
-        return format_response(False, error="O parâmetro 'artist' é obrigatório."), 400
-
-    artist_hash = generate_hash(artist_name)
-    cached_info = spotify_file_cache.get(artist_hash)
-    if cached_info:
-        return format_response(True, data=cached_info["data"])
-
-    artist_info = safe_search_artist_info(artist_name)
-    if not artist_info:
-        return format_response(False, error="Artista não encontrado no Spotify."), 404
-
-    spotify_file_cache[artist_hash] = {"data": artist_info, "timestamp": time.time()}
-    save_file_cache(spotify_file_cache, SPOTIFY_CACHE_FILE)
-
-    return format_response(True, data=artist_info)
+#@app.route("/artist_info", methods=["GET"])
+#@limiter.limit("10 per minute")
+#def get_artist_info():
+#    artist_name = request.args.get("artist")
+#    if not artist_name:
+#        return format_response(False, error="O parâmetro 'artist' é obrigatório."), 400
+#
+#    artist_hash = generate_hash(artist_name)
+#    cached_info = spotify_file_cache.get(artist_hash)
+#    if cached_info:
+#        return format_response(True, data=cached_info["data"])
+#
+#    artist_info = safe_search_artist_info(artist_name)
+#    if not artist_info:
+#        return format_response(False, error="Artista não encontrado no Spotify."), 404
+#
+#    spotify_file_cache[artist_hash] = {"data": artist_info, "timestamp": time.time()}
+#    save_file_cache(spotify_file_cache, SPOTIFY_CACHE_FILE)
+#
+#    return format_response(True, data=artist_info)
 
 @app.route("/enhanced_search", methods=["GET"])
 @limiter.limit("10 per minute")

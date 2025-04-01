@@ -5860,5 +5860,2525 @@
       ]
     },
     "timestamp": 1743466624.3721178
+  },
+  "7ae068e144aab71b5c9f9b0a517ade9f": {
+    "data": {
+      "artist": "Taylor Swift",
+      "spotify_info": {
+        "id": "06HL4z0CvFAxyc27GXpf02",
+        "name": "Taylor Swift",
+        "popularity": 97,
+        "genres": [],
+        "followers": 134981861,
+        "image_url": "https://i.scdn.co/image/ab6761610000e5ebe672b5f553298dcdccb0e676"
+      },
+      "spotify_top_tracks": [
+        {
+          "id": "1BxfuPKGuaTgP7aM0Bbdwr",
+          "name": "Cruel Summer",
+          "popularity": 89,
+          "preview_url": null,
+          "album_name": "Lover",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b273e787cffec20aa2a396a61647",
+          "release_date": "2019-08-23",
+          "spotify_url": "https://open.spotify.com/track/1BxfuPKGuaTgP7aM0Bbdwr"
+        },
+        {
+          "id": "2OzhQlSqBEmt7hmkYxfT6m",
+          "name": "Fortnight (feat. Post Malone)",
+          "popularity": 84,
+          "preview_url": null,
+          "album_name": "THE TORTURED POETS DEPARTMENT",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b2735076e4160d018e378f488c33",
+          "release_date": "2024-04-18",
+          "spotify_url": "https://open.spotify.com/track/2OzhQlSqBEmt7hmkYxfT6m"
+        },
+        {
+          "id": "4R2kfaDFhslZEMJqAFNpdd",
+          "name": "cardigan",
+          "popularity": 85,
+          "preview_url": null,
+          "album_name": "folklore",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b27395f754318336a07e85ec59bc",
+          "release_date": "2020-07-24",
+          "spotify_url": "https://open.spotify.com/track/4R2kfaDFhslZEMJqAFNpdd"
+        },
+        {
+          "id": "1dGr1c8CrMLDpV6mPbImSI",
+          "name": "Lover",
+          "popularity": 85,
+          "preview_url": null,
+          "album_name": "Lover",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b273e787cffec20aa2a396a61647",
+          "release_date": "2019-08-23",
+          "spotify_url": "https://open.spotify.com/track/1dGr1c8CrMLDpV6mPbImSI"
+        },
+        {
+          "id": "3hUxzQpSfdDqwM3ZTFQY0K",
+          "name": "august",
+          "popularity": 84,
+          "preview_url": null,
+          "album_name": "folklore",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b27395f754318336a07e85ec59bc",
+          "release_date": "2020-07-24",
+          "spotify_url": "https://open.spotify.com/track/3hUxzQpSfdDqwM3ZTFQY0K"
+        },
+        {
+          "id": "4q5YezDOIPcoLr8R81x9qy",
+          "name": "I Can Do It With a Broken Heart",
+          "popularity": 82,
+          "preview_url": null,
+          "album_name": "THE TORTURED POETS DEPARTMENT",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b2735076e4160d018e378f488c33",
+          "release_date": "2024-04-18",
+          "spotify_url": "https://open.spotify.com/track/4q5YezDOIPcoLr8R81x9qy"
+        },
+        {
+          "id": "1u8c2t2Cy7UBoG4ArRcF5g",
+          "name": "Blank Space",
+          "popularity": 82,
+          "preview_url": null,
+          "album_name": "1989 (Deluxe)",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b27352b2a3824413eefe9e33817a",
+          "release_date": "2014-01-01",
+          "spotify_url": "https://open.spotify.com/track/1u8c2t2Cy7UBoG4ArRcF5g"
+        },
+        {
+          "id": "55n9yjI6qqXh5F2mYvUc2y",
+          "name": "I Don’t Wanna Live Forever (Fifty Shades Darker)",
+          "popularity": 83,
+          "preview_url": null,
+          "album_name": "reputation Stadium Tour Surprise Song Playlist",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b27363d77f99117b28af9f656918",
+          "release_date": "2017-11-09",
+          "spotify_url": "https://open.spotify.com/track/55n9yjI6qqXh5F2mYvUc2y"
+        },
+        {
+          "id": "1R0a2iXumgCiFb7HEZ7gUE",
+          "name": "Don’t Blame Me",
+          "popularity": 84,
+          "preview_url": null,
+          "album_name": "reputation",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b273da5d5aeeabacacc1263c0f4b",
+          "release_date": "2017-11-10",
+          "spotify_url": "https://open.spotify.com/track/1R0a2iXumgCiFb7HEZ7gUE"
+        },
+        {
+          "id": "0V3wPSX9ygBnCm8psDIegu",
+          "name": "Anti-Hero",
+          "popularity": 83,
+          "preview_url": null,
+          "album_name": "Midnights",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b273bb54dde68cd23e2a268ae0f5",
+          "release_date": "2022-10-21",
+          "spotify_url": "https://open.spotify.com/track/0V3wPSX9ygBnCm8psDIegu"
+        }
+      ],
+      "genius_songs": [
+        {
+          "title": "All Too Well (10 Minute Version) (Taylor’s Version) [From The Vault]",
+          "url": "https://genius.com/Taylor-swift-all-too-well-10-minute-version-taylors-version-from-the-vault-lyrics",
+          "image_url": "https://images.genius.com/9dd4ba749dd51d39d7b56b67b9cc3777.1000x1000x1.jpg"
+        },
+        {
+          "title": "All Too Well (10 Minute Version) (Taylor’s Version) [Live Acoustic]",
+          "url": "https://genius.com/Taylor-swift-all-too-well-10-minute-version-taylors-version-live-acoustic-lyrics",
+          "image_url": "https://images.genius.com/fb18a1248bb4cd26893dea7e3610b0d5.1000x1000x1.jpg"
+        },
+        {
+          "title": "Fortnight",
+          "url": "https://genius.com/Taylor-swift-fortnight-lyrics",
+          "image_url": "https://images.genius.com/9e602eb80c004d0302187f908fa5afea.1000x1000x1.png"
+        },
+        {
+          "title": "cardigan",
+          "url": "https://genius.com/Taylor-swift-cardigan-lyrics",
+          "image_url": "https://images.genius.com/8c6b44171caaa726820cce35ad8b066e.1000x1000x1.png"
+        },
+        {
+          "title": "So Long, London",
+          "url": "https://genius.com/Taylor-swift-so-long-london-lyrics",
+          "image_url": "https://images.genius.com/48394cc3d17656b89aec73549d8863b6.1000x1000x1.png"
+        },
+        {
+          "title": "The Tortured Poets Department",
+          "url": "https://genius.com/Taylor-swift-the-tortured-poets-department-lyrics",
+          "image_url": "https://images.genius.com/48394cc3d17656b89aec73549d8863b6.1000x1000x1.png"
+        },
+        {
+          "title": "exile",
+          "url": "https://genius.com/Taylor-swift-exile-lyrics",
+          "image_url": "https://images.genius.com/4a6a06f7e361703062b0db46d0e4ec36.1000x1000x1.png"
+        },
+        {
+          "title": "Lover",
+          "url": "https://genius.com/Taylor-swift-lover-lyrics",
+          "image_url": "https://images.genius.com/ef7309e1b3e6fae42a331b84076f68e6.1000x1000x1.jpg"
+        },
+        {
+          "title": "loml",
+          "url": "https://genius.com/Taylor-swift-loml-lyrics",
+          "image_url": "https://images.genius.com/48394cc3d17656b89aec73549d8863b6.1000x1000x1.png"
+        },
+        {
+          "title": "Down Bad",
+          "url": "https://genius.com/Taylor-swift-down-bad-lyrics",
+          "image_url": "https://images.genius.com/48394cc3d17656b89aec73549d8863b6.1000x1000x1.png"
+        },
+        {
+          "title": "But Daddy I Love Him",
+          "url": "https://genius.com/Taylor-swift-but-daddy-i-love-him-lyrics",
+          "image_url": "https://images.genius.com/48394cc3d17656b89aec73549d8863b6.1000x1000x1.png"
+        },
+        {
+          "title": "Is It Over Now? (Taylor’s Version) [From The Vault]",
+          "url": "https://genius.com/Taylor-swift-is-it-over-now-taylors-version-from-the-vault-lyrics",
+          "image_url": "https://images.genius.com/a7c0bb49114dc476947df4375fb2ca0b.1000x1000x1.png"
+        },
+        {
+          "title": "the 1",
+          "url": "https://genius.com/Taylor-swift-the-1-lyrics",
+          "image_url": "https://images.genius.com/4a6a06f7e361703062b0db46d0e4ec36.1000x1000x1.png"
+        },
+        {
+          "title": "thanK you aIMee",
+          "url": "https://genius.com/Taylor-swift-thank-you-aimee-lyrics",
+          "image_url": "https://images.genius.com/060181ac1b325992184cbe693e0318e1.1000x1000x1.png"
+        },
+        {
+          "title": "Cruel Summer",
+          "url": "https://genius.com/Taylor-swift-cruel-summer-lyrics",
+          "image_url": "https://images.genius.com/8109424a2bb5b226dbb3482466d51e34.1000x1000x1.png"
+        },
+        {
+          "title": "august",
+          "url": "https://genius.com/Taylor-swift-august-lyrics",
+          "image_url": "https://images.genius.com/4a6a06f7e361703062b0db46d0e4ec36.1000x1000x1.png"
+        },
+        {
+          "title": "I Can Do It With a Broken Heart",
+          "url": "https://genius.com/Taylor-swift-i-can-do-it-with-a-broken-heart-lyrics",
+          "image_url": "https://images.genius.com/ffbac9cc7a380db1d09d5895dcc63a44.1000x1000x1.png"
+        },
+        {
+          "title": "Guilty as Sin?",
+          "url": "https://genius.com/Taylor-swift-guilty-as-sin-lyrics",
+          "image_url": "https://images.genius.com/48394cc3d17656b89aec73549d8863b6.1000x1000x1.png"
+        },
+        {
+          "title": "The Smallest Man Who Ever Lived",
+          "url": "https://genius.com/Taylor-swift-the-smallest-man-who-ever-lived-lyrics",
+          "image_url": "https://images.genius.com/48394cc3d17656b89aec73549d8863b6.1000x1000x1.png"
+        },
+        {
+          "title": "​tolerate it",
+          "url": "https://genius.com/Taylor-swift-tolerate-it-lyrics",
+          "image_url": "https://images.genius.com/3e354c719fe236ab4a75adc6ea4c7fca.1000x1000x1.png"
+        },
+        {
+          "title": "​champagne problems",
+          "url": "https://genius.com/Taylor-swift-champagne-problems-lyrics",
+          "image_url": "https://images.genius.com/3e354c719fe236ab4a75adc6ea4c7fca.1000x1000x1.png"
+        },
+        {
+          "title": "Anti-Hero",
+          "url": "https://genius.com/Taylor-swift-anti-hero-lyrics",
+          "image_url": "https://images.genius.com/f406b461b1e69871b2ceb0320d322fd4.1000x1000x1.jpg"
+        },
+        {
+          "title": "Look What You Made Me Do",
+          "url": "https://genius.com/Taylor-swift-look-what-you-made-me-do-lyrics",
+          "image_url": "https://images.genius.com/0a1e9278ea8bdecbbba6c3ff901f76ca.1000x1000x1.jpg"
+        },
+        {
+          "title": "So High School",
+          "url": "https://genius.com/Taylor-swift-so-high-school-lyrics",
+          "image_url": "https://images.genius.com/060181ac1b325992184cbe693e0318e1.1000x1000x1.png"
+        },
+        {
+          "title": "betty",
+          "url": "https://genius.com/Taylor-swift-betty-lyrics",
+          "image_url": "https://images.genius.com/4a6a06f7e361703062b0db46d0e4ec36.1000x1000x1.png"
+        },
+        {
+          "title": "Who’s Afraid of Little Old Me?",
+          "url": "https://genius.com/Taylor-swift-whos-afraid-of-little-old-me-lyrics",
+          "image_url": "https://images.genius.com/48394cc3d17656b89aec73549d8863b6.1000x1000x1.png"
+        },
+        {
+          "title": "The Alchemy",
+          "url": "https://genius.com/Taylor-swift-the-alchemy-lyrics",
+          "image_url": "https://images.genius.com/48394cc3d17656b89aec73549d8863b6.1000x1000x1.png"
+        },
+        {
+          "title": "Blank Space",
+          "url": "https://genius.com/Taylor-swift-blank-space-lyrics",
+          "image_url": "https://images.genius.com/eb811cfbca7ffdc3527e156e85fd78af.1000x1000x1.png"
+        },
+        {
+          "title": "My Boy Only Breaks His Favorite Toys",
+          "url": "https://genius.com/Taylor-swift-my-boy-only-breaks-his-favorite-toys-lyrics",
+          "image_url": "https://images.genius.com/48394cc3d17656b89aec73549d8863b6.1000x1000x1.png"
+        },
+        {
+          "title": "Style",
+          "url": "https://genius.com/Taylor-swift-style-lyrics",
+          "image_url": "https://images.genius.com/a16eff33d8f584aca492364c128b7e62.1000x1000x1.jpg"
+        },
+        {
+          "title": "You’re Losing Me (From The Vault)",
+          "url": "https://genius.com/Taylor-swift-youre-losing-me-from-the-vault-lyrics",
+          "image_url": "https://images.genius.com/b62f3e538aabacbb765f20ba4a3740fa.1000x1000x1.png"
+        },
+        {
+          "title": "my tears ricochet",
+          "url": "https://genius.com/Taylor-swift-my-tears-ricochet-lyrics",
+          "image_url": "https://images.genius.com/4a6a06f7e361703062b0db46d0e4ec36.1000x1000x1.png"
+        },
+        {
+          "title": "“Slut!” (Taylor’s Version) [From The Vault]",
+          "url": "https://genius.com/Taylor-swift-slut-taylors-version-from-the-vault-lyrics",
+          "image_url": "https://images.genius.com/bd1e242fae1f61c9b947007044827ca3.1000x1000x1.png"
+        },
+        {
+          "title": "...Ready for It?",
+          "url": "https://genius.com/Taylor-swift-ready-for-it-lyrics",
+          "image_url": "https://images.genius.com/5aeff71a5f148ca52f0b19d92a701246.800x800x1.jpg"
+        },
+        {
+          "title": "Florida!!!",
+          "url": "https://genius.com/Taylor-swift-florida-lyrics",
+          "image_url": "https://images.genius.com/48394cc3d17656b89aec73549d8863b6.1000x1000x1.png"
+        },
+        {
+          "title": "We Are Never Ever Getting Back Together",
+          "url": "https://genius.com/Taylor-swift-we-are-never-ever-getting-back-together-lyrics",
+          "image_url": "https://images.genius.com/c51dab82cef9aff1d570453d4dd1fe60.1000x1000x1.png"
+        },
+        {
+          "title": "End Game",
+          "url": "https://genius.com/Taylor-swift-end-game-lyrics",
+          "image_url": "https://images.genius.com/28d21347f111334c084915dfc744f6d6.1000x1000x1.jpg"
+        },
+        {
+          "title": "​willow",
+          "url": "https://genius.com/Taylor-swift-willow-lyrics",
+          "image_url": "https://images.genius.com/470f33317c22f26869b26b812ae9bebd.1000x1000x1.jpg"
+        },
+        {
+          "title": "You Need To Calm Down",
+          "url": "https://genius.com/Taylor-swift-you-need-to-calm-down-lyrics",
+          "image_url": "https://images.genius.com/001210b8381e1473a716fc4be4233390.1000x1000x1.png"
+        },
+        {
+          "title": "You’re On Your Own, Kid",
+          "url": "https://genius.com/Taylor-swift-youre-on-your-own-kid-lyrics",
+          "image_url": "https://images.genius.com/395eb4a5e6aa04c8574425345cd816f5.894x894x1.png"
+        },
+        {
+          "title": "Love Story",
+          "url": "https://genius.com/Taylor-swift-love-story-lyrics",
+          "image_url": "https://images.genius.com/117f4c032fa50c3be689a2694a7c9a9b.1000x1000x1.jpg"
+        },
+        {
+          "title": "Fresh Out The Slammer",
+          "url": "https://genius.com/Taylor-swift-fresh-out-the-slammer-lyrics",
+          "image_url": "https://images.genius.com/48394cc3d17656b89aec73549d8863b6.1000x1000x1.png"
+        },
+        {
+          "title": "Maroon",
+          "url": "https://genius.com/Taylor-swift-maroon-lyrics",
+          "image_url": "https://images.genius.com/395eb4a5e6aa04c8574425345cd816f5.894x894x1.png"
+        },
+        {
+          "title": "invisible string",
+          "url": "https://genius.com/Taylor-swift-invisible-string-lyrics",
+          "image_url": "https://images.genius.com/4a6a06f7e361703062b0db46d0e4ec36.1000x1000x1.png"
+        },
+        {
+          "title": "ME!",
+          "url": "https://genius.com/Taylor-swift-me-lyrics",
+          "image_url": "https://images.genius.com/fac7bfae627ede43ac7ae8a6c4b2b561.1000x1000x1.jpg"
+        },
+        {
+          "title": "All Too Well",
+          "url": "https://genius.com/Taylor-swift-all-too-well-lyrics",
+          "image_url": "https://images.genius.com/341214eeb78c133a8170a932919a66aa.1000x1000x1.png"
+        },
+        {
+          "title": "seven",
+          "url": "https://genius.com/Taylor-swift-seven-lyrics",
+          "image_url": "https://images.genius.com/4a6a06f7e361703062b0db46d0e4ec36.1000x1000x1.png"
+        },
+        {
+          "title": "Karma",
+          "url": "https://genius.com/Taylor-swift-karma-lyrics",
+          "image_url": "https://images.genius.com/395eb4a5e6aa04c8574425345cd816f5.894x894x1.png"
+        },
+        {
+          "title": "the last great american dynasty",
+          "url": "https://genius.com/Taylor-swift-the-last-great-american-dynasty-lyrics",
+          "image_url": "https://images.genius.com/4a6a06f7e361703062b0db46d0e4ec36.1000x1000x1.png"
+        },
+        {
+          "title": "Clara Bow",
+          "url": "https://genius.com/Taylor-swift-clara-bow-lyrics",
+          "image_url": "https://images.genius.com/48394cc3d17656b89aec73549d8863b6.1000x1000x1.png"
+        },
+        {
+          "title": "Now That We Don’t Talk (Taylor’s Version) [From The Vault]",
+          "url": "https://genius.com/Taylor-swift-now-that-we-dont-talk-taylors-version-from-the-vault-lyrics",
+          "image_url": "https://images.genius.com/a7c0bb49114dc476947df4375fb2ca0b.1000x1000x1.png"
+        },
+        {
+          "title": "this is me trying",
+          "url": "https://genius.com/Taylor-swift-this-is-me-trying-lyrics",
+          "image_url": "https://images.genius.com/4a6a06f7e361703062b0db46d0e4ec36.1000x1000x1.png"
+        },
+        {
+          "title": "illicit affairs",
+          "url": "https://genius.com/Taylor-swift-illicit-affairs-lyrics",
+          "image_url": "https://images.genius.com/4a6a06f7e361703062b0db46d0e4ec36.1000x1000x1.png"
+        },
+        {
+          "title": "happiness",
+          "url": "https://genius.com/Taylor-swift-happiness-lyrics",
+          "image_url": "https://images.genius.com/3e354c719fe236ab4a75adc6ea4c7fca.1000x1000x1.png"
+        },
+        {
+          "title": "Delicate",
+          "url": "https://genius.com/Taylor-swift-delicate-lyrics",
+          "image_url": "https://images.genius.com/a3695ff222a81cb3a4e497c1de336e63.500x500x1.jpg"
+        },
+        {
+          "title": "You Belong With Me",
+          "url": "https://genius.com/Taylor-swift-you-belong-with-me-lyrics",
+          "image_url": "https://images.genius.com/69651d2fbc119d574e4d80425fdb053b.1000x1000x1.jpg"
+        },
+        {
+          "title": "Call It What You Want",
+          "url": "https://genius.com/Taylor-swift-call-it-what-you-want-lyrics",
+          "image_url": "https://images.genius.com/75f158769570b17de3f0bba057a6fbcb.580x580x1.jpg"
+        },
+        {
+          "title": "​ivy",
+          "url": "https://genius.com/Taylor-swift-ivy-lyrics",
+          "image_url": "https://images.genius.com/3e354c719fe236ab4a75adc6ea4c7fca.1000x1000x1.png"
+        },
+        {
+          "title": "Shake It Off",
+          "url": "https://genius.com/Taylor-swift-shake-it-off-lyrics",
+          "image_url": "https://images.genius.com/d6c21fe397e6a72f9c8c6d22ee3961b1.1000x1000x1.png"
+        },
+        {
+          "title": "Question...?",
+          "url": "https://genius.com/Taylor-swift-question-lyrics",
+          "image_url": "https://images.genius.com/f301150dd3c17a74327b5e3b3c4b013c.1000x1000x1.png"
+        },
+        {
+          "title": "The Black Dog",
+          "url": "https://genius.com/Taylor-swift-the-black-dog-lyrics",
+          "image_url": "https://images.genius.com/763e3cf4dda677683aa7be9396a2e224.1000x1000x1.jpg"
+        },
+        {
+          "title": "I Hate It Here",
+          "url": "https://genius.com/Taylor-swift-i-hate-it-here-lyrics",
+          "image_url": "https://images.genius.com/060181ac1b325992184cbe693e0318e1.1000x1000x1.png"
+        },
+        {
+          "title": "I Can Fix Him (No Really I Can)",
+          "url": "https://genius.com/Taylor-swift-i-can-fix-him-no-really-i-can-lyrics",
+          "image_url": "https://images.genius.com/48394cc3d17656b89aec73549d8863b6.1000x1000x1.png"
+        },
+        {
+          "title": "Say Don’t Go (Taylor’s Version) [From The Vault]",
+          "url": "https://genius.com/Taylor-swift-say-dont-go-taylors-version-from-the-vault-lyrics",
+          "image_url": "https://images.genius.com/a7c0bb49114dc476947df4375fb2ca0b.1000x1000x1.png"
+        },
+        {
+          "title": "Mastermind",
+          "url": "https://genius.com/Taylor-swift-mastermind-lyrics",
+          "image_url": "https://images.genius.com/395eb4a5e6aa04c8574425345cd816f5.894x894x1.png"
+        },
+        {
+          "title": "Snow On The Beach",
+          "url": "https://genius.com/Taylor-swift-snow-on-the-beach-lyrics",
+          "image_url": "https://images.genius.com/395eb4a5e6aa04c8574425345cd816f5.894x894x1.png"
+        },
+        {
+          "title": "22",
+          "url": "https://genius.com/Taylor-swift-22-lyrics",
+          "image_url": "https://images.genius.com/2463ee507f2bce8d0ea12d764c64899a.1000x1000x1.jpg"
+        },
+        {
+          "title": "Hits Different",
+          "url": "https://genius.com/Taylor-swift-hits-different-lyrics",
+          "image_url": "https://images.genius.com/2ed72f4e721a9d2112cd0471e4c130dc.1000x1000x1.png"
+        },
+        {
+          "title": "​evermore",
+          "url": "https://genius.com/Taylor-swift-evermore-lyrics",
+          "image_url": "https://images.genius.com/3e354c719fe236ab4a75adc6ea4c7fca.1000x1000x1.png"
+        },
+        {
+          "title": "mirrorball",
+          "url": "https://genius.com/Taylor-swift-mirrorball-lyrics",
+          "image_url": "https://images.genius.com/4a6a06f7e361703062b0db46d0e4ec36.1000x1000x1.png"
+        },
+        {
+          "title": "Would’ve, Could’ve, Should’ve",
+          "url": "https://genius.com/Taylor-swift-wouldve-couldve-shouldve-lyrics",
+          "image_url": "https://images.genius.com/28417d8f2f4d5da33ae32dd2ec8f0d4c.1000x1000x1.jpg"
+        },
+        {
+          "title": "Bad Blood (Remix)",
+          "url": "https://genius.com/Taylor-swift-bad-blood-remix-lyrics",
+          "image_url": "https://images.genius.com/f3581c6c6fab1de5959f3521b219c6f9.1000x1000x1.jpg"
+        },
+        {
+          "title": "Gorgeous",
+          "url": "https://genius.com/Taylor-swift-gorgeous-lyrics",
+          "image_url": "https://images.genius.com/8147e18d56c4f5acda89fe4b0ff8417d.1000x999x1.png"
+        },
+        {
+          "title": "Vigilante Shit",
+          "url": "https://genius.com/Taylor-swift-vigilante-shit-lyrics",
+          "image_url": "https://images.genius.com/395eb4a5e6aa04c8574425345cd816f5.894x894x1.png"
+        },
+        {
+          "title": "Midnight Rain",
+          "url": "https://genius.com/Taylor-swift-midnight-rain-lyrics",
+          "image_url": "https://images.genius.com/395eb4a5e6aa04c8574425345cd816f5.894x894x1.png"
+        },
+        {
+          "title": "Getaway Car",
+          "url": "https://genius.com/Taylor-swift-getaway-car-lyrics",
+          "image_url": "https://images.genius.com/d6eba083b40fcec8b16ab1b4489fe057.1000x1000x1.png"
+        },
+        {
+          "title": "peace",
+          "url": "https://genius.com/Taylor-swift-peace-lyrics",
+          "image_url": "https://images.genius.com/4a6a06f7e361703062b0db46d0e4ec36.1000x1000x1.png"
+        },
+        {
+          "title": "Daylight",
+          "url": "https://genius.com/Taylor-swift-daylight-lyrics",
+          "image_url": "https://images.genius.com/960edcb36156c3aed9cb70ede250780a.1000x1000x1.jpg"
+        },
+        {
+          "title": "The Manuscript",
+          "url": "https://genius.com/Taylor-swift-the-manuscript-lyrics",
+          "image_url": "https://images.genius.com/7913ed080c8d72c68d448f2b62620c8a.1000x1000x1.jpg"
+        },
+        {
+          "title": "​gold rush",
+          "url": "https://genius.com/Taylor-swift-gold-rush-lyrics",
+          "image_url": "https://images.genius.com/3e354c719fe236ab4a75adc6ea4c7fca.1000x1000x1.png"
+        },
+        {
+          "title": "Don’t Blame Me",
+          "url": "https://genius.com/Taylor-swift-dont-blame-me-lyrics",
+          "image_url": "https://images.genius.com/d6eba083b40fcec8b16ab1b4489fe057.1000x1000x1.png"
+        },
+        {
+          "title": "The Archer",
+          "url": "https://genius.com/Taylor-swift-the-archer-lyrics",
+          "image_url": "https://images.genius.com/65c4c1675f63c4713c6d6d2a64755388.1000x1000x1.jpg"
+        },
+        {
+          "title": "How Did It End?",
+          "url": "https://genius.com/Taylor-swift-how-did-it-end-lyrics",
+          "image_url": "https://images.genius.com/060181ac1b325992184cbe693e0318e1.1000x1000x1.png"
+        },
+        {
+          "title": "Chloe or Sam or Sophia or Marcus",
+          "url": "https://genius.com/Taylor-swift-chloe-or-sam-or-sophia-or-marcus-lyrics",
+          "image_url": "https://images.genius.com/060181ac1b325992184cbe693e0318e1.1000x1000x1.png"
+        },
+        {
+          "title": "The Man",
+          "url": "https://genius.com/Taylor-swift-the-man-lyrics",
+          "image_url": "https://images.genius.com/960edcb36156c3aed9cb70ede250780a.1000x1000x1.jpg"
+        },
+        {
+          "title": "The Prophecy",
+          "url": "https://genius.com/Taylor-swift-the-prophecy-lyrics",
+          "image_url": "https://images.genius.com/060181ac1b325992184cbe693e0318e1.1000x1000x1.png"
+        },
+        {
+          "title": "Dress",
+          "url": "https://genius.com/Taylor-swift-dress-lyrics",
+          "image_url": "https://images.genius.com/d6eba083b40fcec8b16ab1b4489fe057.1000x1000x1.png"
+        },
+        {
+          "title": "Lavender Haze",
+          "url": "https://genius.com/Taylor-swift-lavender-haze-lyrics",
+          "image_url": "https://images.genius.com/1a32958d5ec286b0c208366813050cb3.1000x1000x1.jpg"
+        },
+        {
+          "title": "mad woman",
+          "url": "https://genius.com/Taylor-swift-mad-woman-lyrics",
+          "image_url": "https://images.genius.com/4a6a06f7e361703062b0db46d0e4ec36.1000x1000x1.png"
+        },
+        {
+          "title": "Peter",
+          "url": "https://genius.com/Taylor-swift-peter-lyrics",
+          "image_url": "https://images.genius.com/060181ac1b325992184cbe693e0318e1.1000x1000x1.png"
+        },
+        {
+          "title": "hoax",
+          "url": "https://genius.com/Taylor-swift-hoax-lyrics",
+          "image_url": "https://images.genius.com/4a6a06f7e361703062b0db46d0e4ec36.1000x1000x1.png"
+        },
+        {
+          "title": "Wildest Dreams",
+          "url": "https://genius.com/Taylor-swift-wildest-dreams-lyrics",
+          "image_url": "https://images.genius.com/4455f74fe6ef0f22f056497f0d1841ab.1000x1000x1.jpg"
+        },
+        {
+          "title": "​no body, no crime",
+          "url": "https://genius.com/Taylor-swift-no-body-no-crime-lyrics",
+          "image_url": "https://images.genius.com/91b428d5b489b1e6ab4b541a59a7805d.684x684x1.jpg"
+        },
+        {
+          "title": "I Did Something Bad",
+          "url": "https://genius.com/Taylor-swift-i-did-something-bad-lyrics",
+          "image_url": "https://images.genius.com/d6eba083b40fcec8b16ab1b4489fe057.1000x1000x1.png"
+        },
+        {
+          "title": "epiphany",
+          "url": "https://genius.com/Taylor-swift-epiphany-lyrics",
+          "image_url": "https://images.genius.com/4a6a06f7e361703062b0db46d0e4ec36.1000x1000x1.png"
+        },
+        {
+          "title": "Miss Americana & The Heartbreak Prince",
+          "url": "https://genius.com/Taylor-swift-miss-americana-and-the-heartbreak-prince-lyrics",
+          "image_url": "https://images.genius.com/960edcb36156c3aed9cb70ede250780a.1000x1000x1.jpg"
+        },
+        {
+          "title": "Bejeweled",
+          "url": "https://genius.com/Taylor-swift-bejeweled-lyrics",
+          "image_url": "https://images.genius.com/f22bcdd2a18ce86a141c26acff44fd03.1000x1000x1.jpg"
+        },
+        {
+          "title": "the lakes",
+          "url": "https://genius.com/Taylor-swift-the-lakes-lyrics",
+          "image_url": "https://images.genius.com/42492bf752b50642dcb86b02ce2f7b81.1000x1000x1.png"
+        },
+        {
+          "title": "Enchanted",
+          "url": "https://genius.com/Taylor-swift-enchanted-lyrics",
+          "image_url": "https://images.genius.com/d04f0a5d76810e4bc7c6d5f8e261bd91.1000x1000x1.jpg"
+        },
+        {
+          "title": "I Can See You (Taylor’s Version) [From The Vault]",
+          "url": "https://genius.com/Taylor-swift-i-can-see-you-taylors-version-from-the-vault-lyrics",
+          "image_url": "https://images.genius.com/6adb3738db699c499d0b7601d3728f0b.1000x1000x1.png"
+        }
+      ]
+    },
+    "timestamp": 1743510026.924231
+  },
+  "d3ed8223151e14b936436c336a4c7278": {
+    "data": {
+      "artist": "Batushka",
+      "spotify_info": {
+        "id": "4JbGNRHZzUZLWOWMTIXRdw",
+        "name": "БАТЮШКА",
+        "popularity": 34,
+        "genres": [
+          "black metal"
+        ],
+        "followers": 68491,
+        "image_url": "https://i.scdn.co/image/ab67616d0000b273088d4e9fb412adcbd40e1ae5"
+      },
+      "spotify_top_tracks": [
+        {
+          "id": "34FWlbZHTtjslQ9u07ghTY",
+          "name": "Песнь 1",
+          "popularity": 42,
+          "preview_url": null,
+          "album_name": "Панихида",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b273088d4e9fb412adcbd40e1ae5",
+          "release_date": "2019-05-26",
+          "spotify_url": "https://open.spotify.com/track/34FWlbZHTtjslQ9u07ghTY"
+        },
+        {
+          "id": "0acWXnB6hPxIsbimzO4utp",
+          "name": "Песнь 3",
+          "popularity": 37,
+          "preview_url": null,
+          "album_name": "Панихида",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b273088d4e9fb412adcbd40e1ae5",
+          "release_date": "2019-05-26",
+          "spotify_url": "https://open.spotify.com/track/0acWXnB6hPxIsbimzO4utp"
+        },
+        {
+          "id": "2oBHgSges0jkDTUKZf1aQy",
+          "name": "Песнь 2",
+          "popularity": 37,
+          "preview_url": null,
+          "album_name": "Панихида",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b273088d4e9fb412adcbd40e1ae5",
+          "release_date": "2019-05-26",
+          "spotify_url": "https://open.spotify.com/track/2oBHgSges0jkDTUKZf1aQy"
+        },
+        {
+          "id": "0JZFuGpll3AqiBfeQ2xiR9",
+          "name": "Песнь 4",
+          "popularity": 35,
+          "preview_url": null,
+          "album_name": "Панихида",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b273088d4e9fb412adcbd40e1ae5",
+          "release_date": "2019-05-26",
+          "spotify_url": "https://open.spotify.com/track/0JZFuGpll3AqiBfeQ2xiR9"
+        },
+        {
+          "id": "1ouB3z2ELggVzq1yyGbykt",
+          "name": "Песнь 7",
+          "popularity": 34,
+          "preview_url": null,
+          "album_name": "Панихида",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b273088d4e9fb412adcbd40e1ae5",
+          "release_date": "2019-05-26",
+          "spotify_url": "https://open.spotify.com/track/1ouB3z2ELggVzq1yyGbykt"
+        },
+        {
+          "id": "10ahG7P4hCEmGLq0VCjSHm",
+          "name": "Песнь 5",
+          "popularity": 32,
+          "preview_url": null,
+          "album_name": "Панихида",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b273088d4e9fb412adcbd40e1ae5",
+          "release_date": "2019-05-26",
+          "spotify_url": "https://open.spotify.com/track/10ahG7P4hCEmGLq0VCjSHm"
+        },
+        {
+          "id": "0XTCP6zA2Aac9t67C78kCR",
+          "name": "Песнь 6",
+          "popularity": 31,
+          "preview_url": null,
+          "album_name": "Панихида",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b273088d4e9fb412adcbd40e1ae5",
+          "release_date": "2019-05-26",
+          "spotify_url": "https://open.spotify.com/track/0XTCP6zA2Aac9t67C78kCR"
+        },
+        {
+          "id": "3Wex7asiyZxcYVMHJKPlVN",
+          "name": "Песнь 8",
+          "popularity": 31,
+          "preview_url": null,
+          "album_name": "Панихида",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b273088d4e9fb412adcbd40e1ae5",
+          "release_date": "2019-05-26",
+          "spotify_url": "https://open.spotify.com/track/3Wex7asiyZxcYVMHJKPlVN"
+        }
+      ],
+      "genius_songs": [
+        {
+          "title": "Ектения I: Очищение (Yekteniya I)",
+          "url": "https://genius.com/Batushka-i-yekteniya-i-lyrics",
+          "image_url": "https://images.genius.com/931b1caae8f2f0f5c9ebf3e6beb1b3b6.900x900x1.jpg"
+        },
+        {
+          "title": "Ектения III: Премудрость (Yekteniya III)",
+          "url": "https://genius.com/Batushka-iii-yekteniya-iii-lyrics",
+          "image_url": "https://images.genius.com/931b1caae8f2f0f5c9ebf3e6beb1b3b6.900x900x1.jpg"
+        },
+        {
+          "title": "Ектения II: Благословение (Yekteniya II)",
+          "url": "https://genius.com/Batushka-ii-yekteniya-ii-lyrics",
+          "image_url": "https://images.genius.com/931b1caae8f2f0f5c9ebf3e6beb1b3b6.900x900x1.jpg"
+        },
+        {
+          "title": "Ектения VI: Упование (Yekteniya VI)",
+          "url": "https://genius.com/Batushka-vi-yekteniya-vi-lyrics",
+          "image_url": "https://images.genius.com/931b1caae8f2f0f5c9ebf3e6beb1b3b6.900x900x1.jpg"
+        },
+        {
+          "title": "Ектения IV: Милость (Yekteniya IV)",
+          "url": "https://genius.com/Batushka-iv-yekteniya-iv-lyrics",
+          "image_url": "https://images.genius.com/931b1caae8f2f0f5c9ebf3e6beb1b3b6.900x900x1.jpg"
+        },
+        {
+          "title": "Песнь 1 (Pesn’ 1)",
+          "url": "https://genius.com/Batushka-1-pesn-1-lyrics",
+          "image_url": "https://images.genius.com/e926f07e9d2185f81a975fc6444dc549.1000x1000x1.jpg"
+        },
+        {
+          "title": "Polunosznica",
+          "url": "https://genius.com/Batushka-polunosznica-lyrics",
+          "image_url": "https://images.genius.com/ad2c4d69bda716cb6c50909f2636683c.1000x1000x1.jpg"
+        },
+        {
+          "title": "Ектения V: Святый вход (Yekteniya V)",
+          "url": "https://genius.com/Batushka-v-yekteniya-v-lyrics",
+          "image_url": "https://images.genius.com/931b1caae8f2f0f5c9ebf3e6beb1b3b6.900x900x1.jpg"
+        },
+        {
+          "title": "Песнь 2 (Pesn’ 2)",
+          "url": "https://genius.com/Batushka-2-pesn-2-lyrics",
+          "image_url": "https://images.genius.com/4e9bd16440c90b7501d2c840580c2655.1000x1000x1.png"
+        },
+        {
+          "title": "Ектения VII: Истина (Yekteniya VII)",
+          "url": "https://genius.com/Batushka-vii-yekteniya-vii-lyrics",
+          "image_url": "https://images.genius.com/aaf74598196a7fa09f28ec6acba83bfe.953x953x1.jpg"
+        },
+        {
+          "title": "Ектения VIII: Спасение (Yekteniya VIII)",
+          "url": "https://genius.com/Batushka-viii-yekteniya-viii-lyrics",
+          "image_url": "https://images.genius.com/931b1caae8f2f0f5c9ebf3e6beb1b3b6.900x900x1.jpg"
+        },
+        {
+          "title": "Wieczernia",
+          "url": "https://genius.com/Batushka-wieczernia-lyrics",
+          "image_url": "https://images.genius.com/ad2c4d69bda716cb6c50909f2636683c.1000x1000x1.jpg"
+        },
+        {
+          "title": "Dziewiatyj Czas",
+          "url": "https://genius.com/Batushka-dziewiatyj-czas-lyrics",
+          "image_url": "https://images.genius.com/ad2c4d69bda716cb6c50909f2636683c.1000x1000x1.jpg"
+        },
+        {
+          "title": "Песнь 3 (Pesn’ 3)",
+          "url": "https://genius.com/Batushka-3-pesn-3-lyrics",
+          "image_url": "https://images.genius.com/4e9bd16440c90b7501d2c840580c2655.1000x1000x1.png"
+        },
+        {
+          "title": "Wozglas",
+          "url": "https://genius.com/Batushka-wozglas-lyrics",
+          "image_url": "https://images.genius.com/ad2c4d69bda716cb6c50909f2636683c.1000x1000x1.jpg"
+        },
+        {
+          "title": "Szestoj Czas",
+          "url": "https://genius.com/Batushka-szestoj-czas-lyrics",
+          "image_url": "https://images.genius.com/ad2c4d69bda716cb6c50909f2636683c.1000x1000x1.jpg"
+        },
+        {
+          "title": "Powieczerje",
+          "url": "https://genius.com/Batushka-powieczerje-lyrics",
+          "image_url": "https://images.genius.com/ad2c4d69bda716cb6c50909f2636683c.1000x1000x1.jpg"
+        },
+        {
+          "title": "Песнь 4 (Pesn’ 4)",
+          "url": "https://genius.com/Batushka-4-pesn-4-lyrics",
+          "image_url": "https://images.genius.com/4e9bd16440c90b7501d2c840580c2655.1000x1000x1.png"
+        },
+        {
+          "title": "Песнь 5 (Pesn’ 5)",
+          "url": "https://genius.com/Batushka-5-pesn-5-lyrics",
+          "image_url": "https://images.genius.com/4e9bd16440c90b7501d2c840580c2655.1000x1000x1.png"
+        },
+        {
+          "title": "Utrenia",
+          "url": "https://genius.com/Batushka-utrenia-lyrics",
+          "image_url": "https://images.genius.com/ad2c4d69bda716cb6c50909f2636683c.1000x1000x1.jpg"
+        },
+        {
+          "title": "Песнь 6 (Pesn’ 6)",
+          "url": "https://genius.com/Batushka-6-pesn-6-lyrics",
+          "image_url": "https://images.genius.com/4e9bd16440c90b7501d2c840580c2655.1000x1000x1.png"
+        },
+        {
+          "title": "Песнь 8 (Pesn’ 8)",
+          "url": "https://genius.com/Batushka-8-pesn-8-lyrics",
+          "image_url": "https://images.genius.com/4e9bd16440c90b7501d2c840580c2655.1000x1000x1.png"
+        },
+        {
+          "title": "Песнь 7 (Pesn’ 7)",
+          "url": "https://genius.com/Batushka-7-pesn-7-lyrics",
+          "image_url": "https://images.genius.com/4e9bd16440c90b7501d2c840580c2655.1000x1000x1.png"
+        },
+        {
+          "title": "Liturgiya",
+          "url": "https://genius.com/Batushka-liturgiya-lyrics",
+          "image_url": "https://images.genius.com/ad2c4d69bda716cb6c50909f2636683c.1000x1000x1.jpg"
+        },
+        {
+          "title": "Pierwyj Czas",
+          "url": "https://genius.com/Batushka-pierwyj-czas-lyrics",
+          "image_url": "https://images.genius.com/ad2c4d69bda716cb6c50909f2636683c.1000x1000x1.jpg"
+        },
+        {
+          "title": "Tretij Czas",
+          "url": "https://genius.com/Batushka-tretij-czas-lyrics",
+          "image_url": "https://images.genius.com/ad2c4d69bda716cb6c50909f2636683c.1000x1000x1.jpg"
+        }
+      ]
+    },
+    "timestamp": 1743510622.472221
+  },
+  "6d401a2e0ef2d1696236dccbc161fc76": {
+    "data": {
+      "artist": "Taake",
+      "spotify_info": {
+        "id": "2CofVEvqc6hhyKwYsLiuN9",
+        "name": "Taake",
+        "popularity": 32,
+        "genres": [
+          "black metal"
+        ],
+        "followers": 142714,
+        "image_url": "https://i.scdn.co/image/ab6761610000e5eb3a84807445d3760179efae2c"
+      },
+      "spotify_top_tracks": [
+        {
+          "id": "45zV1C4nVWMRz7yLcQ5Rmo",
+          "name": "Myr",
+          "popularity": 35,
+          "preview_url": null,
+          "album_name": "Noregs Vaapen",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b2736b10c27b20b03a9c4e47b833",
+          "release_date": "2011-09-19",
+          "spotify_url": "https://open.spotify.com/track/45zV1C4nVWMRz7yLcQ5Rmo"
+        },
+        {
+          "id": "4GPPUU61KREfMJGm8VYEbA",
+          "name": "Nordbundet",
+          "popularity": 29,
+          "preview_url": null,
+          "album_name": "Noregs Vaapen",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b2736b10c27b20b03a9c4e47b833",
+          "release_date": "2011-09-19",
+          "spotify_url": "https://open.spotify.com/track/4GPPUU61KREfMJGm8VYEbA"
+        },
+        {
+          "id": "16iGDoDEy4JcqYCYpC6Bch",
+          "name": "Hordalands Doedskvad, Pt. 1",
+          "popularity": 28,
+          "preview_url": null,
+          "album_name": "Doedskvad",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b273223b644f48c9f27516b55cb8",
+          "release_date": "2005-02-28",
+          "spotify_url": "https://open.spotify.com/track/16iGDoDEy4JcqYCYpC6Bch"
+        },
+        {
+          "id": "3dBT1NJLWIYPMs5JVQjbTx",
+          "name": "Fra Vadested Til Vaandesmed",
+          "popularity": 25,
+          "preview_url": null,
+          "album_name": "Noregs Vaapen",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b2736b10c27b20b03a9c4e47b833",
+          "release_date": "2011-09-19",
+          "spotify_url": "https://open.spotify.com/track/3dBT1NJLWIYPMs5JVQjbTx"
+        },
+        {
+          "id": "6ITdgxrJqxR8hiZx5cmpoI",
+          "name": "I",
+          "popularity": 26,
+          "preview_url": null,
+          "album_name": "Nattestid Ser Porten Vid",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b2733810e3d05446476f0c078a3b",
+          "release_date": "1999",
+          "spotify_url": "https://open.spotify.com/track/6ITdgxrJqxR8hiZx5cmpoI"
+        },
+        {
+          "id": "7j09LXhccAE50CkhwTAxr0",
+          "name": "Hordalands Doedskvad, Pt. 2",
+          "popularity": 23,
+          "preview_url": null,
+          "album_name": "Doedskvad",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b273223b644f48c9f27516b55cb8",
+          "release_date": "2005-02-28",
+          "spotify_url": "https://open.spotify.com/track/7j09LXhccAE50CkhwTAxr0"
+        },
+        {
+          "id": "42m7mjhe4SnulmpWwhg1h0",
+          "name": "Orkan",
+          "popularity": 21,
+          "preview_url": null,
+          "album_name": "Noregs Vaapen",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b2736b10c27b20b03a9c4e47b833",
+          "release_date": "2011-09-19",
+          "spotify_url": "https://open.spotify.com/track/42m7mjhe4SnulmpWwhg1h0"
+        },
+        {
+          "id": "0NmkRjcfxnpC5Sl3sS3tmZ",
+          "name": "Hordalands Doedskvad, Pt. 3",
+          "popularity": 21,
+          "preview_url": null,
+          "album_name": "Doedskvad",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b273223b644f48c9f27516b55cb8",
+          "release_date": "2005-02-28",
+          "spotify_url": "https://open.spotify.com/track/0NmkRjcfxnpC5Sl3sS3tmZ"
+        },
+        {
+          "id": "1Qj0T3RGrdVjZZGW9rF745",
+          "name": "Du Ville Ville Vestland",
+          "popularity": 20,
+          "preview_url": null,
+          "album_name": "Noregs Vaapen",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b2736b10c27b20b03a9c4e47b833",
+          "release_date": "2011-09-19",
+          "spotify_url": "https://open.spotify.com/track/1Qj0T3RGrdVjZZGW9rF745"
+        },
+        {
+          "id": "7nzjXGeN3PB5JkQR0qrRZ7",
+          "name": "I",
+          "popularity": 20,
+          "preview_url": null,
+          "album_name": "Bjoergvin",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b2738b80b0f582614d8b1dc4d75d",
+          "release_date": "1999-01-01",
+          "spotify_url": "https://open.spotify.com/track/7nzjXGeN3PB5JkQR0qrRZ7"
+        }
+      ],
+      "genius_songs": [
+        {
+          "title": "Myr",
+          "url": "https://genius.com/Taake-myr-lyrics",
+          "image_url": "https://images.genius.com/8c5102161ed271ee6be4afaf8a075c7c.500x497x1.jpg"
+        },
+        {
+          "title": "Nordbundet",
+          "url": "https://genius.com/Taake-nordbundet-lyrics",
+          "image_url": "https://images.genius.com/07fa9f9bc0b96b4f172145e9a437f996.1000x1000x1.jpg"
+        },
+        {
+          "title": "Fra Vadested til Vaandesmed",
+          "url": "https://genius.com/Taake-fra-vadested-til-vaandesmed-lyrics",
+          "image_url": "https://images.genius.com/8c5102161ed271ee6be4afaf8a075c7c.500x497x1.jpg"
+        },
+        {
+          "title": "Hordalands doedskvad, Part I",
+          "url": "https://genius.com/Taake-hordalands-doedskvad-part-i-lyrics",
+          "image_url": "https://images.genius.com/874d4eff4f85834ba3c51540c878f8d4.1000x1000x1.jpg"
+        },
+        {
+          "title": "Dei vil alltid klaga og kyta",
+          "url": "https://genius.com/Taake-dei-vil-alltid-klaga-og-kyta-lyrics",
+          "image_url": "https://images.genius.com/8c5102161ed271ee6be4afaf8a075c7c.500x497x1.jpg"
+        },
+        {
+          "title": "Nattestid ser porten vid I",
+          "url": "https://genius.com/Taake-nattestid-ser-porten-vid-i-lyrics",
+          "image_url": "https://images.genius.com/07fa9f9bc0b96b4f172145e9a437f996.1000x1000x1.jpg"
+        },
+        {
+          "title": "Hordalands Doedskvad I",
+          "url": "https://genius.com/Taake-hordalands-doedskvad-i-lyrics",
+          "image_url": "https://images.genius.com/07fa9f9bc0b96b4f172145e9a437f996.1000x1000x1.jpg"
+        },
+        {
+          "title": "Rasekrig",
+          "url": "https://genius.com/Taake-rasekrig-lyrics",
+          "image_url": "https://images.genius.com/874d4eff4f85834ba3c51540c878f8d4.1000x1000x1.jpg"
+        },
+        {
+          "title": "Du ville ville Vestland",
+          "url": "https://genius.com/Taake-du-ville-ville-vestland-lyrics",
+          "image_url": "https://images.genius.com/8c5102161ed271ee6be4afaf8a075c7c.500x497x1.jpg"
+        },
+        {
+          "title": "Voldtekt",
+          "url": "https://genius.com/Taake-voldtekt-lyrics",
+          "image_url": "https://images.genius.com/dd560418c878ccf1169f29fa1cc7e016.500x453x1.jpg"
+        },
+        {
+          "title": "Orm",
+          "url": "https://genius.com/Taake-orm-lyrics",
+          "image_url": "https://images.genius.com/99d2fc457e8e4349ebfdbc4b7d150e3b.552x552x1.jpg"
+        },
+        {
+          "title": "Nattestid ser porten vid VII",
+          "url": "https://genius.com/Taake-nattestid-ser-porten-vid-vii-lyrics",
+          "image_url": "https://images.genius.com/e9ab474e46e3f032212fb20a0ac85f68.600x600x1.jpg"
+        },
+        {
+          "title": "Hordalands Doedskvad II",
+          "url": "https://genius.com/Taake-hordalands-doedskvad-ii-lyrics",
+          "image_url": "https://images.genius.com/69878e6d1b8768098117c1309830731f.600x600x1.jpg"
+        },
+        {
+          "title": "Nattestid ser porten vid II",
+          "url": "https://genius.com/Taake-nattestid-ser-porten-vid-ii-lyrics",
+          "image_url": "https://images.genius.com/e9ab474e46e3f032212fb20a0ac85f68.600x600x1.jpg"
+        },
+        {
+          "title": "Hennes kalde Skamlepper",
+          "url": "https://genius.com/Taake-hennes-kalde-skamlepper-lyrics",
+          "image_url": "https://images.genius.com/dd560418c878ccf1169f29fa1cc7e016.500x453x1.jpg"
+        },
+        {
+          "title": "Motpol",
+          "url": "https://genius.com/Taake-motpol-lyrics",
+          "image_url": "https://images.genius.com/c70487c415b0d2814d4ef994bcb4e057.526x526x1.jpg"
+        },
+        {
+          "title": "Hordalands Doedskvad VI",
+          "url": "https://genius.com/Taake-hordalands-doedskvad-vi-lyrics",
+          "image_url": "https://images.genius.com/69878e6d1b8768098117c1309830731f.600x600x1.jpg"
+        },
+        {
+          "title": "Over bjoergvin graater himmerik Part I",
+          "url": "https://genius.com/Taake-over-bjoergvin-graater-himmerik-part-i-lyrics",
+          "image_url": "https://images.genius.com/71e6edfa1e41bd9deacb9d59bd91e52b.688x688x1.png"
+        },
+        {
+          "title": "Umenneske",
+          "url": "https://genius.com/Taake-umenneske-lyrics",
+          "image_url": "https://images.genius.com/c70487c415b0d2814d4ef994bcb4e057.526x526x1.jpg"
+        },
+        {
+          "title": "Helvetesmakt",
+          "url": "https://genius.com/Taake-helvetesmakt-lyrics",
+          "image_url": "https://images.genius.com/8c5102161ed271ee6be4afaf8a075c7c.500x497x1.jpg"
+        },
+        {
+          "title": "Nattestid ser porten vid III",
+          "url": "https://genius.com/Taake-nattestid-ser-porten-vid-iii-lyrics",
+          "image_url": "https://images.genius.com/e9ab474e46e3f032212fb20a0ac85f68.600x600x1.jpg"
+        },
+        {
+          "title": "Hordalands Doedskvad III",
+          "url": "https://genius.com/Taake-hordalands-doedskvad-iii-lyrics",
+          "image_url": "https://images.genius.com/69878e6d1b8768098117c1309830731f.600x600x1.jpg"
+        },
+        {
+          "title": "Velg bort livet",
+          "url": "https://genius.com/Taake-velg-bort-livet-lyrics",
+          "image_url": "https://images.genius.com/c70487c415b0d2814d4ef994bcb4e057.526x526x1.jpg"
+        },
+        {
+          "title": "Hordalands Doedskvad VII",
+          "url": "https://genius.com/Taake-hordalands-doedskvad-vii-lyrics",
+          "image_url": "https://images.genius.com/69878e6d1b8768098117c1309830731f.600x600x1.jpg"
+        },
+        {
+          "title": "Over bjoergvin graater himmerik Part 4",
+          "url": "https://genius.com/Taake-over-bjoergvin-graater-himmerik-part-4-lyrics",
+          "image_url": "https://images.genius.com/07fa9f9bc0b96b4f172145e9a437f996.1000x1000x1.jpg"
+        },
+        {
+          "title": "Over bjoergvin graater himmerik Part III",
+          "url": "https://genius.com/Taake-over-bjoergvin-graater-himmerik-part-iii-lyrics",
+          "image_url": "https://images.genius.com/71e6edfa1e41bd9deacb9d59bd91e52b.688x688x1.png"
+        },
+        {
+          "title": "Doedsjarl",
+          "url": "https://genius.com/Taake-doedsjarl-lyrics",
+          "image_url": "https://images.genius.com/c70487c415b0d2814d4ef994bcb4e057.526x526x1.jpg"
+        },
+        {
+          "title": "Lamb",
+          "url": "https://genius.com/Taake-lamb-lyrics",
+          "image_url": "https://images.genius.com/dd560418c878ccf1169f29fa1cc7e016.500x453x1.jpg"
+        },
+        {
+          "title": "Hordalands doedskvad, Part II",
+          "url": "https://genius.com/Taake-hordalands-doedskvad-part-ii-lyrics",
+          "image_url": "https://images.genius.com/874d4eff4f85834ba3c51540c878f8d4.1000x1000x1.jpg"
+        },
+        {
+          "title": "Hordalands Doedskvad V",
+          "url": "https://genius.com/Taake-hordalands-doedskvad-v-lyrics",
+          "image_url": "https://images.genius.com/69878e6d1b8768098117c1309830731f.600x600x1.jpg"
+        },
+        {
+          "title": "Over bjoergvin graater himmerik Part IV",
+          "url": "https://genius.com/Taake-over-bjoergvin-graater-himmerik-part-iv-lyrics",
+          "image_url": "https://images.genius.com/874d4eff4f85834ba3c51540c878f8d4.1000x1000x1.jpg"
+        },
+        {
+          "title": "Hordalands Doedskvad IV",
+          "url": "https://genius.com/Taake-hordalands-doedskvad-iv-lyrics",
+          "image_url": "https://images.genius.com/69878e6d1b8768098117c1309830731f.600x600x1.jpg"
+        },
+        {
+          "title": "Nattestid ser porten vid, Part I",
+          "url": "https://genius.com/Taake-nattestid-ser-porten-vid-part-i-lyrics",
+          "image_url": "https://images.genius.com/874d4eff4f85834ba3c51540c878f8d4.1000x1000x1.jpg"
+        },
+        {
+          "title": "Lukt til Helvete",
+          "url": "https://genius.com/Taake-lukt-til-helvete-lyrics",
+          "image_url": "https://images.genius.com/c70487c415b0d2814d4ef994bcb4e057.526x526x1.jpg"
+        },
+        {
+          "title": "Atternatt",
+          "url": "https://genius.com/Taake-atternatt-lyrics",
+          "image_url": "https://images.genius.com/c70487c415b0d2814d4ef994bcb4e057.526x526x1.jpg"
+        },
+        {
+          "title": "Nattestid ser porten vid IV",
+          "url": "https://genius.com/Taake-nattestid-ser-porten-vid-iv-lyrics",
+          "image_url": "https://images.genius.com/e9ab474e46e3f032212fb20a0ac85f68.600x600x1.jpg"
+        },
+        {
+          "title": "September omsider",
+          "url": "https://genius.com/Taake-september-omsider-lyrics",
+          "image_url": "https://images.genius.com/c70487c415b0d2814d4ef994bcb4e057.526x526x1.jpg"
+        },
+        {
+          "title": "Nattestid ser porten vid V",
+          "url": "https://genius.com/Taake-nattestid-ser-porten-vid-v-lyrics",
+          "image_url": "https://images.genius.com/e9ab474e46e3f032212fb20a0ac85f68.600x600x1.jpg"
+        },
+        {
+          "title": "Hordalands doedskvad, Part IV",
+          "url": "https://genius.com/Taake-hordalands-doedskvad-part-iv-lyrics",
+          "image_url": "https://images.genius.com/874d4eff4f85834ba3c51540c878f8d4.1000x1000x1.jpg"
+        },
+        {
+          "title": "Nattestid ser porten vid VI",
+          "url": "https://genius.com/Taake-nattestid-ser-porten-vid-vi-lyrics",
+          "image_url": "https://images.genius.com/e9ab474e46e3f032212fb20a0ac85f68.600x600x1.jpg"
+        },
+        {
+          "title": "Fra Bjoergegrend Mot Glemselen",
+          "url": "https://genius.com/Taake-fra-bjoergegrend-mot-glemselen-lyrics",
+          "image_url": "https://images.genius.com/cd1e985f8f1b1964859ea2cdef994388.1000x1000x1.jpg"
+        },
+        {
+          "title": "Hordalands doedskvad, Part III",
+          "url": "https://genius.com/Taake-hordalands-doedskvad-part-iii-lyrics",
+          "image_url": "https://images.genius.com/874d4eff4f85834ba3c51540c878f8d4.1000x1000x1.jpg"
+        },
+        {
+          "title": "Death Trap",
+          "url": "https://genius.com/Taake-death-trap-lyrics",
+          "image_url": "https://images.genius.com/e3976f25e475f398961de74e05ddf28f.212x212x1.jpg"
+        },
+        {
+          "title": "Manndaudsvinter",
+          "url": "https://genius.com/Taake-manndaudsvinter-lyrics",
+          "image_url": "https://images.genius.com/659bc23967b73d1b1c6f606e816ec806.1000x1000x1.jpg"
+        },
+        {
+          "title": "Over bjoergvin graater himmerik Part II",
+          "url": "https://genius.com/Taake-over-bjoergvin-graater-himmerik-part-ii-lyrics",
+          "image_url": "https://images.genius.com/71e6edfa1e41bd9deacb9d59bd91e52b.688x688x1.png"
+        },
+        {
+          "title": "Tykjes fele",
+          "url": "https://genius.com/Taake-tykjes-fele-lyrics",
+          "image_url": "https://images.genius.com/13849a2fcee0e08482c7a8b5927ed00f.640x640x1.jpg"
+        },
+        {
+          "title": "Over fjell og gjennom torner",
+          "url": "https://genius.com/Taake-over-fjell-og-gjennom-torner-lyrics",
+          "image_url": "https://images.genius.com/13849a2fcee0e08482c7a8b5927ed00f.640x640x1.jpg"
+        },
+        {
+          "title": "Eismalsott",
+          "url": "https://genius.com/Taake-eismalsott-lyrics",
+          "image_url": "https://images.genius.com/13849a2fcee0e08482c7a8b5927ed00f.640x640x1.jpg"
+        },
+        {
+          "title": "Blant sølv og gull i mørket",
+          "url": "https://genius.com/Taake-blant-slv-og-gull-i-mrket-lyrics",
+          "image_url": "https://images.genius.com/874d4eff4f85834ba3c51540c878f8d4.1000x1000x1.jpg"
+        },
+        {
+          "title": "Trolldom",
+          "url": "https://genius.com/Taake-trolldom-lyrics",
+          "image_url": "https://images.genius.com/29ff8e4c0034b3ec2a3ce8f1c5f1b6dd.500x500x1.jpg"
+        },
+        {
+          "title": "Over bjoergvin graater himmerik Part V",
+          "url": "https://genius.com/Taake-over-bjoergvin-graater-himmerik-part-v-lyrics",
+          "image_url": "https://images.genius.com/71e6edfa1e41bd9deacb9d59bd91e52b.688x688x1.png"
+        },
+        {
+          "title": "Over bjoergvin graater himmerik Part VI",
+          "url": "https://genius.com/Taake-over-bjoergvin-graater-himmerik-part-vi-lyrics",
+          "image_url": "https://images.genius.com/71e6edfa1e41bd9deacb9d59bd91e52b.688x688x1.png"
+        },
+        {
+          "title": "Hordalands doedskvad, Part V",
+          "url": "https://genius.com/Taake-hordalands-doedskvad-part-v-lyrics",
+          "image_url": "https://images.genius.com/874d4eff4f85834ba3c51540c878f8d4.1000x1000x1.jpg"
+        },
+        {
+          "title": "Et skaldekvad i hellig blod",
+          "url": "https://genius.com/Taake-et-skaldekvad-i-hellig-blod-lyrics",
+          "image_url": "https://images.genius.com/874d4eff4f85834ba3c51540c878f8d4.1000x1000x1.jpg"
+        },
+        {
+          "title": "Et uhyre av en kniv",
+          "url": "https://genius.com/Taake-et-uhyre-av-en-kniv-lyrics",
+          "image_url": "https://images.genius.com/0acac67648288adcf55fe9576c5a846f.901x901x1.jpg"
+        },
+        {
+          "title": "Heartland",
+          "url": "https://genius.com/Taake-heartland-lyrics",
+          "image_url": "https://images.genius.com/68033504f2b535c9e5212dc2220f8924.1000x1000x1.png"
+        },
+        {
+          "title": "Denne forblaaste ruin av en bro",
+          "url": "https://genius.com/Taake-denne-forblaaste-ruin-av-en-bro-lyrics",
+          "image_url": "https://images.genius.com/0acac67648288adcf55fe9576c5a846f.901x901x1.jpg"
+        },
+        {
+          "title": "The Dance of Eternal Shadows (Darkthrone Cover)",
+          "url": "https://genius.com/Taake-the-dance-of-eternal-shadows-darkthrone-cover-lyrics",
+          "image_url": "https://images.genius.com/880b5f22f7c8b03391b200e27e2c6ea8.500x500x1.jpg"
+        },
+        {
+          "title": "Utarmede gruver",
+          "url": "https://genius.com/Taake-utarmede-gruver-lyrics",
+          "image_url": "https://images.genius.com/0acac67648288adcf55fe9576c5a846f.901x901x1.jpg"
+        },
+        {
+          "title": "Gid sprakk vi",
+          "url": "https://genius.com/Taake-gid-sprakk-vi-lyrics",
+          "image_url": "https://images.genius.com/0acac67648288adcf55fe9576c5a846f.901x901x1.jpg"
+        },
+        {
+          "title": "Ravnajuv",
+          "url": "https://genius.com/Taake-ravnajuv-lyrics",
+          "image_url": "https://images.genius.com/68033504f2b535c9e5212dc2220f8924.1000x1000x1.png"
+        }
+      ]
+    },
+    "timestamp": 1743512002.6316967
+  },
+  "3b6d90f85e8dadcb3c02922e730e4a9d": {
+    "data": {
+      "artist": "candlemass",
+      "spotify_info": {
+        "id": "7zDtfSB0AOZWhpuAHZIOw5",
+        "name": "Candlemass",
+        "popularity": 46,
+        "genres": [
+          "doom metal",
+          "sludge metal",
+          "metal",
+          "gothic metal"
+        ],
+        "followers": 272876,
+        "image_url": "https://i.scdn.co/image/ab6761610000e5eb8fa0447551de2ebd2546491f"
+      },
+      "spotify_top_tracks": [
+        {
+          "id": "0v3WyEt2g04WFpfVwcnfXm",
+          "name": "Solitude",
+          "popularity": 51,
+          "preview_url": null,
+          "album_name": "Epicus Doomicus Metallicus",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b27316fc29f6941572c718c58c5d",
+          "release_date": "1986",
+          "spotify_url": "https://open.spotify.com/track/0v3WyEt2g04WFpfVwcnfXm"
+        },
+        {
+          "id": "739nwy9raEhLKks3kh0byh",
+          "name": "Bewitched",
+          "popularity": 47,
+          "preview_url": null,
+          "album_name": "Nightfall",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b2737d21336541d1a6138412cd6b",
+          "release_date": "1987",
+          "spotify_url": "https://open.spotify.com/track/739nwy9raEhLKks3kh0byh"
+        },
+        {
+          "id": "6FOxPCZ24GxHGO4jyVgQgn",
+          "name": "At The Gallows End",
+          "popularity": 43,
+          "preview_url": null,
+          "album_name": "Nightfall",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b2737d21336541d1a6138412cd6b",
+          "release_date": "1987",
+          "spotify_url": "https://open.spotify.com/track/6FOxPCZ24GxHGO4jyVgQgn"
+        },
+        {
+          "id": "6MbVyEVkHqDoxr8atiQKsT",
+          "name": "Demons Gate",
+          "popularity": 42,
+          "preview_url": null,
+          "album_name": "Epicus Doomicus Metallicus",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b27316fc29f6941572c718c58c5d",
+          "release_date": "1986",
+          "spotify_url": "https://open.spotify.com/track/6MbVyEVkHqDoxr8atiQKsT"
+        },
+        {
+          "id": "1Z1GPw6RpIN7HvRysZ6RjC",
+          "name": "The Well Of Souls",
+          "popularity": 41,
+          "preview_url": null,
+          "album_name": "Nightfall",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b2737d21336541d1a6138412cd6b",
+          "release_date": "1987",
+          "spotify_url": "https://open.spotify.com/track/1Z1GPw6RpIN7HvRysZ6RjC"
+        },
+        {
+          "id": "28fRiFQT4LPLqmBh1zgbC1",
+          "name": "Crystal Ball",
+          "popularity": 39,
+          "preview_url": null,
+          "album_name": "Epicus Doomicus Metallicus",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b27316fc29f6941572c718c58c5d",
+          "release_date": "1986",
+          "spotify_url": "https://open.spotify.com/track/28fRiFQT4LPLqmBh1zgbC1"
+        },
+        {
+          "id": "2qnQQ6Y03msuPO2fsQTqXl",
+          "name": "Samarithan",
+          "popularity": 38,
+          "preview_url": null,
+          "album_name": "Nightfall",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b2737d21336541d1a6138412cd6b",
+          "release_date": "1987",
+          "spotify_url": "https://open.spotify.com/track/2qnQQ6Y03msuPO2fsQTqXl"
+        },
+        {
+          "id": "5kLGqVZFVALScwr4RMu2Gl",
+          "name": "Under the Oak",
+          "popularity": 37,
+          "preview_url": null,
+          "album_name": "Epicus Doomicus Metallicus",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b27316fc29f6941572c718c58c5d",
+          "release_date": "1986",
+          "spotify_url": "https://open.spotify.com/track/5kLGqVZFVALScwr4RMu2Gl"
+        },
+        {
+          "id": "0jtm8LAZLFnyICAkOewdyz",
+          "name": "Black Stone Wielder",
+          "popularity": 37,
+          "preview_url": null,
+          "album_name": "Epicus Doomicus Metallicus",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b27316fc29f6941572c718c58c5d",
+          "release_date": "1986",
+          "spotify_url": "https://open.spotify.com/track/0jtm8LAZLFnyICAkOewdyz"
+        },
+        {
+          "id": "5Dl07nMvNADgwSTV3Z9Mhl",
+          "name": "A Sorcerer's Pledge",
+          "popularity": 36,
+          "preview_url": null,
+          "album_name": "Epicus Doomicus Metallicus",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b27316fc29f6941572c718c58c5d",
+          "release_date": "1986",
+          "spotify_url": "https://open.spotify.com/track/5Dl07nMvNADgwSTV3Z9Mhl"
+        }
+      ],
+      "genius_songs": [
+        {
+          "title": "Solitude",
+          "url": "https://genius.com/Candlemass-solitude-lyrics",
+          "image_url": "https://images.genius.com/af0c537a0e38935770993b0d30b9c0fb.1000x1000x1.jpg"
+        },
+        {
+          "title": "Bewitched",
+          "url": "https://genius.com/Candlemass-bewitched-lyrics",
+          "image_url": "https://images.genius.com/95e1beeb1225aaeed6fed9277a12fb0c.1000x1000x1.jpg"
+        },
+        {
+          "title": "Samarithan",
+          "url": "https://genius.com/Candlemass-samarithan-lyrics",
+          "image_url": "https://images.genius.com/34d28fa6e6b11bbff50406333d65767c.1000x1000x1.jpg"
+        },
+        {
+          "title": "At the Gallows End",
+          "url": "https://genius.com/Candlemass-at-the-gallows-end-lyrics",
+          "image_url": "https://images.genius.com/67176c2e0235dada466929a3959f5331.1000x1000x1.jpg"
+        },
+        {
+          "title": "Demon’s Gate",
+          "url": "https://genius.com/Candlemass-demons-gate-lyrics",
+          "image_url": "https://images.genius.com/045716edc2c1f49deb6718cf7985ee1e.999x999x1.jpg"
+        },
+        {
+          "title": "The Well of Souls",
+          "url": "https://genius.com/Candlemass-the-well-of-souls-lyrics",
+          "image_url": "https://images.genius.com/95e1beeb1225aaeed6fed9277a12fb0c.1000x1000x1.jpg"
+        },
+        {
+          "title": "A Sorcerer’s Pledge",
+          "url": "https://genius.com/Candlemass-a-sorcerers-pledge-lyrics",
+          "image_url": "https://images.genius.com/045716edc2c1f49deb6718cf7985ee1e.999x999x1.jpg"
+        },
+        {
+          "title": "Under the Oak",
+          "url": "https://genius.com/Candlemass-under-the-oak-lyrics",
+          "image_url": "https://images.genius.com/af0c537a0e38935770993b0d30b9c0fb.1000x1000x1.jpg"
+        },
+        {
+          "title": "Black Stone Wielder",
+          "url": "https://genius.com/Candlemass-black-stone-wielder-lyrics",
+          "image_url": "https://images.genius.com/045716edc2c1f49deb6718cf7985ee1e.999x999x1.jpg"
+        },
+        {
+          "title": "Crystal Ball",
+          "url": "https://genius.com/Candlemass-crystal-ball-lyrics",
+          "image_url": "https://images.genius.com/045716edc2c1f49deb6718cf7985ee1e.999x999x1.jpg"
+        },
+        {
+          "title": "Astorolus - The Great Octopus",
+          "url": "https://genius.com/Candlemass-astorolus-the-great-octopus-lyrics",
+          "image_url": "https://images.genius.com/ad2a1401a1399ab04774167b61772c7e.268x268x1.jpg"
+        },
+        {
+          "title": "House of Doom",
+          "url": "https://genius.com/Candlemass-house-of-doom-lyrics",
+          "image_url": "https://images.genius.com/29f182376f88a6f2004984a3a0420734.252x252x1.jpg"
+        },
+        {
+          "title": "Mourners Lament",
+          "url": "https://genius.com/Candlemass-mourners-lament-lyrics",
+          "image_url": "https://images.genius.com/95e1beeb1225aaeed6fed9277a12fb0c.1000x1000x1.jpg"
+        },
+        {
+          "title": "The Omega Circle",
+          "url": "https://genius.com/Candlemass-the-omega-circle-lyrics",
+          "image_url": "https://images.genius.com/ad2a1401a1399ab04774167b61772c7e.268x268x1.jpg"
+        },
+        {
+          "title": "Dark Are the Veils of Death",
+          "url": "https://genius.com/Candlemass-dark-are-the-veils-of-death-lyrics",
+          "image_url": "https://images.genius.com/95e1beeb1225aaeed6fed9277a12fb0c.1000x1000x1.jpg"
+        },
+        {
+          "title": "Mirror Mirror",
+          "url": "https://genius.com/Candlemass-mirror-mirror-lyrics",
+          "image_url": "https://images.genius.com/9bdc0d2bec933ac5a040d10e0f5b4b4f.600x601x1.jpg"
+        },
+        {
+          "title": "Of Stars and Smoke",
+          "url": "https://genius.com/Candlemass-of-stars-and-smoke-lyrics",
+          "image_url": "https://images.genius.com/e368a04a528d79bc583c9e2786d952cc.1000x1000x1.jpg"
+        },
+        {
+          "title": "If I Ever Die",
+          "url": "https://genius.com/Candlemass-if-i-ever-die-lyrics",
+          "image_url": "https://images.genius.com/70b392ed55ef0fc76fce4848a13965e8.1000x1000x1.jpg"
+        },
+        {
+          "title": "Dark Reflections",
+          "url": "https://genius.com/Candlemass-dark-reflections-lyrics",
+          "image_url": "https://images.genius.com/686e90b81c9fd32230654f0ca6dbfd67.1000x1000x1.jpg"
+        },
+        {
+          "title": "Black as Time",
+          "url": "https://genius.com/Candlemass-black-as-time-lyrics",
+          "image_url": "https://images.genius.com/8399cf6a0636f6c324fc278790bf95b8.1000x1000x1.jpg"
+        },
+        {
+          "title": "Ancient Dreams",
+          "url": "https://genius.com/Candlemass-ancient-dreams-lyrics",
+          "image_url": "https://images.genius.com/9bdc0d2bec933ac5a040d10e0f5b4b4f.600x601x1.jpg"
+        },
+        {
+          "title": "The Edge of Heaven",
+          "url": "https://genius.com/Candlemass-the-edge-of-heaven-lyrics",
+          "image_url": "https://images.genius.com/686e90b81c9fd32230654f0ca6dbfd67.1000x1000x1.jpg"
+        },
+        {
+          "title": "Splendor Demon Majesty",
+          "url": "https://genius.com/Candlemass-splendor-demon-majesty-lyrics",
+          "image_url": "https://images.genius.com/ad2a1401a1399ab04774167b61772c7e.268x268x1.jpg"
+        },
+        {
+          "title": "Darkness in Paradise",
+          "url": "https://genius.com/Candlemass-darkness-in-paradise-lyrics",
+          "image_url": "https://images.genius.com/9bdc0d2bec933ac5a040d10e0f5b4b4f.600x601x1.jpg"
+        },
+        {
+          "title": "Under the Ocean",
+          "url": "https://genius.com/Candlemass-under-the-ocean-lyrics",
+          "image_url": "https://images.genius.com/ad2a1401a1399ab04774167b61772c7e.268x268x1.jpg"
+        },
+        {
+          "title": "A Tale of Creation",
+          "url": "https://genius.com/Candlemass-a-tale-of-creation-lyrics",
+          "image_url": "https://images.genius.com/686e90b81c9fd32230654f0ca6dbfd67.1000x1000x1.jpg"
+        },
+        {
+          "title": "A Cry from the Crypt",
+          "url": "https://genius.com/Candlemass-a-cry-from-the-crypt-lyrics",
+          "image_url": "https://images.genius.com/9bdc0d2bec933ac5a040d10e0f5b4b4f.600x601x1.jpg"
+        },
+        {
+          "title": "Hammer of Doom",
+          "url": "https://genius.com/Candlemass-hammer-of-doom-lyrics",
+          "image_url": "https://images.genius.com/70b392ed55ef0fc76fce4848a13965e8.1000x1000x1.jpg"
+        },
+        {
+          "title": "Emperor of the Void",
+          "url": "https://genius.com/Candlemass-emperor-of-the-void-lyrics",
+          "image_url": "https://images.genius.com/e368a04a528d79bc583c9e2786d952cc.1000x1000x1.jpg"
+        },
+        {
+          "title": "Black Dwarf",
+          "url": "https://genius.com/Candlemass-black-dwarf-lyrics",
+          "image_url": "https://images.genius.com/3d73d20baca05d047b94f691591097d9.1000x1000x1.jpg"
+        },
+        {
+          "title": "Epistle No. 81",
+          "url": "https://genius.com/Candlemass-epistle-no-81-lyrics",
+          "image_url": "https://images.genius.com/9bdc0d2bec933ac5a040d10e0f5b4b4f.600x601x1.jpg"
+        },
+        {
+          "title": "Devil Seed",
+          "url": "https://genius.com/Candlemass-devil-seed-lyrics",
+          "image_url": "https://images.genius.com/e368a04a528d79bc583c9e2786d952cc.1000x1000x1.jpg"
+        },
+        {
+          "title": "The Bleeding Baroness",
+          "url": "https://genius.com/Candlemass-the-bleeding-baroness-lyrics",
+          "image_url": "https://images.genius.com/70b392ed55ef0fc76fce4848a13965e8.1000x1000x1.jpg"
+        },
+        {
+          "title": "Witches",
+          "url": "https://genius.com/Candlemass-witches-lyrics",
+          "image_url": "https://images.genius.com/3d73d20baca05d047b94f691591097d9.1000x1000x1.jpg"
+        },
+        {
+          "title": "Black Sabbath Medley",
+          "url": "https://genius.com/Candlemass-black-sabbath-medley-lyrics",
+          "image_url": "https://images.genius.com/9bdc0d2bec933ac5a040d10e0f5b4b4f.600x601x1.jpg"
+        },
+        {
+          "title": "Incarnation of Evil",
+          "url": "https://genius.com/Candlemass-incarnation-of-evil-lyrics",
+          "image_url": "https://images.genius.com/9bdc0d2bec933ac5a040d10e0f5b4b4f.600x601x1.jpg"
+        },
+        {
+          "title": "Death Thy Lover",
+          "url": "https://genius.com/Candlemass-death-thy-lover-lyrics",
+          "image_url": "https://images.genius.com/34357ec4b4decfccb28d3c36e2bcd9e6.960x960x1.jpg"
+        },
+        {
+          "title": "Destroyer",
+          "url": "https://genius.com/Candlemass-destroyer-lyrics",
+          "image_url": "https://images.genius.com/e368a04a528d79bc583c9e2786d952cc.1000x1000x1.jpg"
+        },
+        {
+          "title": "Death’s Wheel",
+          "url": "https://genius.com/Candlemass-deaths-wheel-lyrics",
+          "image_url": "https://images.genius.com/ad2a1401a1399ab04774167b61772c7e.268x268x1.jpg"
+        },
+        {
+          "title": "Fortuneteller",
+          "url": "https://genius.com/Candlemass-fortuneteller-lyrics",
+          "image_url": "https://images.genius.com/29f182376f88a6f2004984a3a0420734.252x252x1.jpg"
+        },
+        {
+          "title": "Gothic Stone",
+          "url": "https://genius.com/Candlemass-gothic-stone-lyrics",
+          "image_url": "https://images.genius.com/95e1beeb1225aaeed6fed9277a12fb0c.1000x1000x1.jpg"
+        },
+        {
+          "title": "Psalms for the Dead",
+          "url": "https://genius.com/Candlemass-psalms-for-the-dead-lyrics",
+          "image_url": "https://images.genius.com/8399cf6a0636f6c324fc278790bf95b8.1000x1000x1.jpg"
+        },
+        {
+          "title": "The Lights of Thebe",
+          "url": "https://genius.com/Candlemass-the-lights-of-thebe-lyrics",
+          "image_url": "https://images.genius.com/8399cf6a0636f6c324fc278790bf95b8.1000x1000x1.jpg"
+        },
+        {
+          "title": "The Sound of Dying Demons",
+          "url": "https://genius.com/Candlemass-the-sound-of-dying-demons-lyrics",
+          "image_url": "https://images.genius.com/8399cf6a0636f6c324fc278790bf95b8.1000x1000x1.jpg"
+        },
+        {
+          "title": "The Killing of the Sun",
+          "url": "https://genius.com/Candlemass-the-killing-of-the-sun-lyrics",
+          "image_url": "https://images.genius.com/8399cf6a0636f6c324fc278790bf95b8.1000x1000x1.jpg"
+        },
+        {
+          "title": "House of 1000 Voices",
+          "url": "https://genius.com/Candlemass-house-of-1000-voices-lyrics",
+          "image_url": "https://images.genius.com/70b392ed55ef0fc76fce4848a13965e8.1000x1000x1.jpg"
+        },
+        {
+          "title": "Demonia 6",
+          "url": "https://genius.com/Candlemass-demonia-6-lyrics",
+          "image_url": "https://images.genius.com/e368a04a528d79bc583c9e2786d952cc.1000x1000x1.jpg"
+        },
+        {
+          "title": "Codex Gigas",
+          "url": "https://genius.com/Candlemass-codex-gigas-lyrics",
+          "image_url": "https://images.genius.com/95e1beeb1225aaeed6fed9277a12fb0c.1000x1000x1.jpg"
+        },
+        {
+          "title": "Bearer of Pain",
+          "url": "https://genius.com/Candlemass-bearer-of-pain-lyrics",
+          "image_url": "https://images.genius.com/9bdc0d2bec933ac5a040d10e0f5b4b4f.600x601x1.jpg"
+        },
+        {
+          "title": "Scandinavian Gods",
+          "url": "https://genius.com/Candlemass-scandinavian-gods-lyrics",
+          "image_url": "https://images.genius.com/c11651a947ee364f1f6a404aaec65485.1000x1000x1.webp"
+        },
+        {
+          "title": "Black Trinity",
+          "url": "https://genius.com/Candlemass-black-trinity-lyrics",
+          "image_url": "https://images.genius.com/ad2a1401a1399ab04774167b61772c7e.268x268x1.jpg"
+        },
+        {
+          "title": "Tears",
+          "url": "https://genius.com/Candlemass-tears-lyrics",
+          "image_url": "https://images.genius.com/686e90b81c9fd32230654f0ca6dbfd67.1000x1000x1.jpg"
+        },
+        {
+          "title": "The Prophecy",
+          "url": "https://genius.com/Candlemass-the-prophecy-lyrics",
+          "image_url": "https://images.genius.com/686e90b81c9fd32230654f0ca6dbfd67.1000x1000x1.jpg"
+        },
+        {
+          "title": "Somewhere in Nowhere",
+          "url": "https://genius.com/Candlemass-somewhere-in-nowhere-lyrics",
+          "image_url": "https://images.genius.com/686e90b81c9fd32230654f0ca6dbfd67.1000x1000x1.jpg"
+        },
+        {
+          "title": "Lucifer Rising",
+          "url": "https://genius.com/Candlemass-lucifer-rising-lyrics",
+          "image_url": "https://images.genius.com/d651bd353029ed37cb426517472d8b90.999x999x1.jpg"
+        },
+        {
+          "title": "Sweet Evil Sun",
+          "url": "https://genius.com/Candlemass-sweet-evil-sun-lyrics",
+          "image_url": "https://images.genius.com/b6078fed828b3efc743e8dac029fb5a0.1000x1000x1.jpg"
+        },
+        {
+          "title": "My Funeral Dreams",
+          "url": "https://genius.com/Candlemass-my-funeral-dreams-lyrics",
+          "image_url": "https://images.genius.com/70b392ed55ef0fc76fce4848a13965e8.1000x1000x1.jpg"
+        },
+        {
+          "title": "Marche Funebre",
+          "url": "https://genius.com/Candlemass-marche-funebre-lyrics",
+          "image_url": "https://images.genius.com/95e1beeb1225aaeed6fed9277a12fb0c.1000x1000x1.jpg"
+        },
+        {
+          "title": "Bullfest",
+          "url": "https://genius.com/Candlemass-bullfest-lyrics",
+          "image_url": "https://images.genius.com/174014d13865d8fada37b3034fe54809.999x999x1.jpg"
+        },
+        {
+          "title": "Bridge of the Blind",
+          "url": "https://genius.com/Candlemass-bridge-of-the-blind-lyrics",
+          "image_url": "https://images.genius.com/ad2a1401a1399ab04774167b61772c7e.268x268x1.jpg"
+        },
+        {
+          "title": "When Death Sighs",
+          "url": "https://genius.com/Candlemass-when-death-sighs-lyrics",
+          "image_url": "https://images.genius.com/b6078fed828b3efc743e8dac029fb5a0.1000x1000x1.jpg"
+        },
+        {
+          "title": "Into the Unfathomed Tower",
+          "url": "https://genius.com/Candlemass-into-the-unfathomed-tower-lyrics",
+          "image_url": "https://images.genius.com/686e90b81c9fd32230654f0ca6dbfd67.1000x1000x1.jpg"
+        },
+        {
+          "title": "The Bells of Acheron",
+          "url": "https://genius.com/Candlemass-the-bells-of-acheron-lyrics",
+          "image_url": "https://images.genius.com/9bdc0d2bec933ac5a040d10e0f5b4b4f.600x601x1.jpg"
+        },
+        {
+          "title": "Black Candles",
+          "url": "https://genius.com/Candlemass-black-candles-lyrics",
+          "image_url": "https://images.genius.com/95e1beeb1225aaeed6fed9277a12fb0c.1000x1000x1.jpg"
+        },
+        {
+          "title": "Man of Shadows",
+          "url": "https://genius.com/Candlemass-man-of-shadows-lyrics",
+          "image_url": "https://images.genius.com/e368a04a528d79bc583c9e2786d952cc.1000x1000x1.jpg"
+        },
+        {
+          "title": "Through the Infinitive Halls of Death",
+          "url": "https://genius.com/Candlemass-through-the-infinitive-halls-of-death-lyrics",
+          "image_url": "https://images.genius.com/686e90b81c9fd32230654f0ca6dbfd67.1000x1000x1.jpg"
+        },
+        {
+          "title": "Prophet",
+          "url": "https://genius.com/Candlemass-prophet-lyrics",
+          "image_url": "https://images.genius.com/8399cf6a0636f6c324fc278790bf95b8.1000x1000x1.jpg"
+        },
+        {
+          "title": "Embracing the Styx",
+          "url": "https://genius.com/Candlemass-embracing-the-styx-lyrics",
+          "image_url": "https://images.genius.com/e368a04a528d79bc583c9e2786d952cc.1000x1000x1.jpg"
+        },
+        {
+          "title": "Voices in the Wind",
+          "url": "https://genius.com/Candlemass-voices-in-the-wind-lyrics",
+          "image_url": "https://images.genius.com/686e90b81c9fd32230654f0ca6dbfd67.1000x1000x1.jpg"
+        },
+        {
+          "title": "Waterwitch",
+          "url": "https://genius.com/Candlemass-waterwitch-lyrics",
+          "image_url": "https://images.genius.com/8399cf6a0636f6c324fc278790bf95b8.1000x1000x1.jpg"
+        },
+        {
+          "title": "Demon of the Deep",
+          "url": "https://genius.com/Candlemass-demon-of-the-deep-lyrics",
+          "image_url": "https://images.genius.com/70b392ed55ef0fc76fce4848a13965e8.1000x1000x1.jpg"
+        },
+        {
+          "title": "Seven Silver Keys",
+          "url": "https://genius.com/Candlemass-seven-silver-keys-lyrics",
+          "image_url": "https://images.genius.com/3d73d20baca05d047b94f691591097d9.1000x1000x1.jpg"
+        },
+        {
+          "title": "Dancing in the Temple (Of the Mad Queen Bee)",
+          "url": "https://genius.com/Candlemass-dancing-in-the-temple-of-the-mad-queen-bee-lyrics",
+          "image_url": "https://images.genius.com/bc3a8c22948d2e7bbf482d241f102d32.600x600x1.jpg"
+        },
+        {
+          "title": "Dead Angel",
+          "url": "https://genius.com/Candlemass-dead-angel-lyrics",
+          "image_url": "https://images.genius.com/70b392ed55ef0fc76fce4848a13965e8.1000x1000x1.jpg"
+        },
+        {
+          "title": "Dawn",
+          "url": "https://genius.com/Candlemass-dawn-lyrics",
+          "image_url": "https://images.genius.com/686e90b81c9fd32230654f0ca6dbfd67.1000x1000x1.jpg"
+        },
+        {
+          "title": "Where the Runes Still Speak",
+          "url": "https://genius.com/Candlemass-where-the-runes-still-speak-lyrics",
+          "image_url": "https://images.genius.com/174014d13865d8fada37b3034fe54809.999x999x1.jpg"
+        },
+        {
+          "title": "The Day and the Night",
+          "url": "https://genius.com/Candlemass-the-day-and-the-night-lyrics",
+          "image_url": "https://images.genius.com/3d73d20baca05d047b94f691591097d9.1000x1000x1.jpg"
+        },
+        {
+          "title": "Flowers of Deception",
+          "url": "https://genius.com/Candlemass-flowers-of-deception-lyrics",
+          "image_url": "https://images.genius.com/29f182376f88a6f2004984a3a0420734.252x252x1.jpg"
+        },
+        {
+          "title": "Siren Song",
+          "url": "https://genius.com/Candlemass-siren-song-lyrics",
+          "image_url": "https://images.genius.com/8399cf6a0636f6c324fc278790bf95b8.1000x1000x1.jpg"
+        },
+        {
+          "title": "Sinister and Sweet",
+          "url": "https://genius.com/Candlemass-sinister-and-sweet-lyrics",
+          "image_url": "https://images.genius.com/34357ec4b4decfccb28d3c36e2bcd9e6.960x960x1.jpg"
+        },
+        {
+          "title": "The Pendulum",
+          "url": "https://genius.com/Candlemass-the-pendulum-lyrics",
+          "image_url": "https://images.genius.com/42ea96afa2fb75de59a4975ca9239de3.640x640x1.jpg"
+        },
+        {
+          "title": "Angel Battle",
+          "url": "https://genius.com/Candlemass-angel-battle-lyrics",
+          "image_url": "https://images.genius.com/b6078fed828b3efc743e8dac029fb5a0.1000x1000x1.jpg"
+        },
+        {
+          "title": "Spellbreaker",
+          "url": "https://genius.com/Candlemass-spellbreaker-lyrics",
+          "image_url": "https://images.genius.com/3d73d20baca05d047b94f691591097d9.1000x1000x1.jpg"
+        },
+        {
+          "title": "Clearsight",
+          "url": "https://genius.com/Candlemass-clearsight-lyrics",
+          "image_url": "https://images.genius.com/e368a04a528d79bc583c9e2786d952cc.1000x1000x1.jpg"
+        },
+        {
+          "title": "The Dying Illusion",
+          "url": "https://genius.com/Candlemass-the-dying-illusion-lyrics",
+          "image_url": "https://images.genius.com/174014d13865d8fada37b3034fe54809.999x999x1.jpg"
+        },
+        {
+          "title": "Copernicus",
+          "url": "https://genius.com/Candlemass-copernicus-lyrics",
+          "image_url": "https://images.genius.com/3d73d20baca05d047b94f691591097d9.1000x1000x1.jpg"
+        },
+        {
+          "title": "Wizard of the Vortex",
+          "url": "https://genius.com/Candlemass-wizard-of-the-vortex-lyrics",
+          "image_url": "https://images.genius.com/b6078fed828b3efc743e8dac029fb5a0.1000x1000x1.jpg"
+        },
+        {
+          "title": "Born in a Tank",
+          "url": "https://genius.com/Candlemass-born-in-a-tank-lyrics",
+          "image_url": "https://images.genius.com/3d73d20baca05d047b94f691591097d9.1000x1000x1.jpg"
+        },
+        {
+          "title": "Julie Laughs No More",
+          "url": "https://genius.com/Candlemass-julie-laughs-no-more-lyrics",
+          "image_url": "https://images.genius.com/174014d13865d8fada37b3034fe54809.999x999x1.jpg"
+        },
+        {
+          "title": "White God",
+          "url": "https://genius.com/Candlemass-white-god-lyrics",
+          "image_url": "https://images.genius.com/d651bd353029ed37cb426517472d8b90.999x999x1.jpg"
+        },
+        {
+          "title": "Clouds of Dementia",
+          "url": "https://genius.com/Candlemass-clouds-of-dementia-lyrics",
+          "image_url": "https://images.genius.com/70b392ed55ef0fc76fce4848a13965e8.1000x1000x1.jpg"
+        },
+        {
+          "title": "The Ebony Throne",
+          "url": "https://genius.com/Candlemass-the-ebony-throne-lyrics",
+          "image_url": "https://images.genius.com/174014d13865d8fada37b3034fe54809.999x999x1.jpg"
+        },
+        {
+          "title": "Assassin of the Light",
+          "url": "https://genius.com/Candlemass-assassin-of-the-light-lyrics",
+          "image_url": "https://images.genius.com/3d73d20baca05d047b94f691591097d9.1000x1000x1.jpg"
+        },
+        {
+          "title": "Dustflow",
+          "url": "https://genius.com/Candlemass-dustflow-lyrics",
+          "image_url": "https://images.genius.com/1d30c0fd284cc6d3e398ef612a040856.1000x1000x1.jpg"
+        },
+        {
+          "title": "I Still See the Black",
+          "url": "https://genius.com/Candlemass-i-still-see-the-black-lyrics",
+          "image_url": "https://images.genius.com/1d30c0fd284cc6d3e398ef612a040856.1000x1000x1.jpg"
+        },
+        {
+          "title": "Abstrakt Sun",
+          "url": "https://genius.com/Candlemass-abstrakt-sun-lyrics",
+          "image_url": "https://images.genius.com/1d30c0fd284cc6d3e398ef612a040856.1000x1000x1.jpg"
+        },
+        {
+          "title": "The Man Who Fell from the Sky",
+          "url": "https://genius.com/Candlemass-the-man-who-fell-from-the-sky-lyrics",
+          "image_url": "https://images.genius.com/3d73d20baca05d047b94f691591097d9.1000x1000x1.jpg"
+        },
+        {
+          "title": "Droid",
+          "url": "https://genius.com/Candlemass-droid-lyrics",
+          "image_url": "https://images.genius.com/36541159d1ab53a3f44a43cb650a1b53.1000x1000x1.jpg"
+        },
+        {
+          "title": "Tot",
+          "url": "https://genius.com/Candlemass-tot-lyrics",
+          "image_url": "https://images.genius.com/36541159d1ab53a3f44a43cb650a1b53.1000x1000x1.jpg"
+        },
+        {
+          "title": "Black Eyes",
+          "url": "https://genius.com/Candlemass-black-eyes-lyrics",
+          "image_url": "https://images.genius.com/174014d13865d8fada37b3034fe54809.999x999x1.jpg"
+        }
+      ]
+    },
+    "timestamp": 1743512268.3109827
+  },
+  "6080d71c0cfe431dac3b2d5bb52f07f5": {
+    "data": {
+      "artist": "mastodon",
+      "spotify_info": {
+        "id": "1Dvfqq39HxvCJ3GvfeIFuT",
+        "name": "Mastodon",
+        "popularity": 60,
+        "genres": [
+          "progressive metal",
+          "sludge metal",
+          "metal",
+          "stoner rock",
+          "groove metal"
+        ],
+        "followers": 987212,
+        "image_url": "https://i.scdn.co/image/ab6761610000e5eb5490f4a4c327475719679a5f"
+      },
+      "spotify_top_tracks": [
+        {
+          "id": "3jagGO7eHHuaD53ibehkux",
+          "name": "Blood and Thunder",
+          "popularity": 63,
+          "preview_url": null,
+          "album_name": "Leviathan",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b27300388d66c87c2c0033849bfd",
+          "release_date": "2004-08-31",
+          "spotify_url": "https://open.spotify.com/track/3jagGO7eHHuaD53ibehkux"
+        },
+        {
+          "id": "6EF0xhfKtQNqUPz2mnE5BD",
+          "name": "The Motherload",
+          "popularity": 59,
+          "preview_url": null,
+          "album_name": "Once More 'Round the Sun",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b2736faddf21400e22f617bcd2e4",
+          "release_date": "2014-06-20",
+          "spotify_url": "https://open.spotify.com/track/6EF0xhfKtQNqUPz2mnE5BD"
+        },
+        {
+          "id": "08IpZZZPvzDMED3oq9F8Or",
+          "name": "Floods of Triton",
+          "popularity": 55,
+          "preview_url": null,
+          "album_name": "Floods of Triton",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b27383b763f8c9909c12dbd9ebae",
+          "release_date": "2024-09-12",
+          "spotify_url": "https://open.spotify.com/track/08IpZZZPvzDMED3oq9F8Or"
+        },
+        {
+          "id": "4Ynr1SPCeUI0W0YPeSFSIK",
+          "name": "Oblivion",
+          "popularity": 53,
+          "preview_url": null,
+          "album_name": "Crack the Skye",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b273ac79283ccb6d08af31fd33d8",
+          "release_date": "2009",
+          "spotify_url": "https://open.spotify.com/track/4Ynr1SPCeUI0W0YPeSFSIK"
+        },
+        {
+          "id": "1dfHpGeaXunLRNvzSZOZtc",
+          "name": "Show Yourself",
+          "popularity": 54,
+          "preview_url": null,
+          "album_name": "Emperor of Sand",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b2730d8c47e2273edbdd4cd3aa47",
+          "release_date": "2017-03-31",
+          "spotify_url": "https://open.spotify.com/track/1dfHpGeaXunLRNvzSZOZtc"
+        },
+        {
+          "id": "4Ut80ggQbyiJN2pGCs7VfB",
+          "name": "Steambreather",
+          "popularity": 54,
+          "preview_url": null,
+          "album_name": "Emperor of Sand",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b2730d8c47e2273edbdd4cd3aa47",
+          "release_date": "2017-03-31",
+          "spotify_url": "https://open.spotify.com/track/4Ut80ggQbyiJN2pGCs7VfB"
+        },
+        {
+          "id": "4coYVm83MTdcEKlWcbU4Zh",
+          "name": "High Road",
+          "popularity": 52,
+          "preview_url": null,
+          "album_name": "Once More 'Round the Sun",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b2736faddf21400e22f617bcd2e4",
+          "release_date": "2014-06-20",
+          "spotify_url": "https://open.spotify.com/track/4coYVm83MTdcEKlWcbU4Zh"
+        },
+        {
+          "id": "7z7A9g6N2prBVa0baThmGq",
+          "name": "Teardrinker",
+          "popularity": 51,
+          "preview_url": null,
+          "album_name": "Hushed and Grim",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b273bd12bbabbaf54a29378389a2",
+          "release_date": "2021-10-29",
+          "spotify_url": "https://open.spotify.com/track/7z7A9g6N2prBVa0baThmGq"
+        },
+        {
+          "id": "5tWHXNwoIZsSL7qnmsgfpO",
+          "name": "Once More 'Round the Sun",
+          "popularity": 49,
+          "preview_url": null,
+          "album_name": "Once More 'Round the Sun",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b2736faddf21400e22f617bcd2e4",
+          "release_date": "2014-06-20",
+          "spotify_url": "https://open.spotify.com/track/5tWHXNwoIZsSL7qnmsgfpO"
+        },
+        {
+          "id": "7zF8QWnnpQ1xNTWmCdsQCX",
+          "name": "Iron Tusk",
+          "popularity": 48,
+          "preview_url": null,
+          "album_name": "Leviathan",
+          "album_image": "https://i.scdn.co/image/ab67616d0000b27300388d66c87c2c0033849bfd",
+          "release_date": "2004-08-31",
+          "spotify_url": "https://open.spotify.com/track/7zF8QWnnpQ1xNTWmCdsQCX"
+        }
+      ],
+      "genius_songs": [
+        {
+          "title": "Blood and Thunder",
+          "url": "https://genius.com/Mastodon-blood-and-thunder-lyrics",
+          "image_url": "https://images.genius.com/19ef00f4bf451f4e7866c7552ec80185.500x497x1.jpg"
+        },
+        {
+          "title": "Oblivion",
+          "url": "https://genius.com/Mastodon-oblivion-lyrics",
+          "image_url": "https://images.genius.com/7a9bf8b6dd0083aa2fb5add7b1548158.640x640x1.jpg"
+        },
+        {
+          "title": "Toe to Toes",
+          "url": "https://genius.com/Mastodon-toe-to-toes-lyrics",
+          "image_url": "https://images.genius.com/ecb4cc7c171c98c7513b68234a2e75d9.1000x1000x1.jpg"
+        },
+        {
+          "title": "Steambreather",
+          "url": "https://genius.com/Mastodon-steambreather-lyrics",
+          "image_url": "https://images.genius.com/e3a38f4ca937501816c474e94d77e2e3.640x640x1.jpg"
+        },
+        {
+          "title": "Sultan’s Curse",
+          "url": "https://genius.com/Mastodon-sultans-curse-lyrics",
+          "image_url": "https://images.genius.com/e3a38f4ca937501816c474e94d77e2e3.640x640x1.jpg"
+        },
+        {
+          "title": "Jaguar God",
+          "url": "https://genius.com/Mastodon-jaguar-god-lyrics",
+          "image_url": "https://images.genius.com/e3a38f4ca937501816c474e94d77e2e3.640x640x1.jpg"
+        },
+        {
+          "title": "Show Yourself",
+          "url": "https://genius.com/Mastodon-show-yourself-lyrics",
+          "image_url": "https://images.genius.com/355330c32f83d28d84396d10aabefd90.500x500x1.jpg"
+        },
+        {
+          "title": "Crack the Skye",
+          "url": "https://genius.com/Mastodon-crack-the-skye-lyrics",
+          "image_url": "https://images.genius.com/c951eee075f8f489820d062f3230eb56.1000x1000x1.jpg"
+        },
+        {
+          "title": "The Czar",
+          "url": "https://genius.com/Mastodon-the-czar-lyrics",
+          "image_url": "https://images.genius.com/c951eee075f8f489820d062f3230eb56.1000x1000x1.jpg"
+        },
+        {
+          "title": "The Motherload",
+          "url": "https://genius.com/Mastodon-the-motherload-lyrics",
+          "image_url": "https://images.genius.com/f619ec99191cbb4550340743a36b534f.1000x1000x1.jpg"
+        },
+        {
+          "title": "Cold Dark Place",
+          "url": "https://genius.com/Mastodon-cold-dark-place-lyrics",
+          "image_url": "https://images.genius.com/ecb4cc7c171c98c7513b68234a2e75d9.1000x1000x1.jpg"
+        },
+        {
+          "title": "The Last Baron",
+          "url": "https://genius.com/Mastodon-the-last-baron-lyrics",
+          "image_url": "https://images.genius.com/c951eee075f8f489820d062f3230eb56.1000x1000x1.jpg"
+        },
+        {
+          "title": "Roots Remain",
+          "url": "https://genius.com/Mastodon-roots-remain-lyrics",
+          "image_url": "https://images.genius.com/e3a38f4ca937501816c474e94d77e2e3.640x640x1.jpg"
+        },
+        {
+          "title": "Word to the Wise",
+          "url": "https://genius.com/Mastodon-word-to-the-wise-lyrics",
+          "image_url": "https://images.genius.com/e3a38f4ca937501816c474e94d77e2e3.640x640x1.jpg"
+        },
+        {
+          "title": "Divinations",
+          "url": "https://genius.com/Mastodon-divinations-lyrics",
+          "image_url": "https://images.genius.com/c36dec99eb9ca7372f128b9c9f592200.599x599x1.jpg"
+        },
+        {
+          "title": "I Am Ahab",
+          "url": "https://genius.com/Mastodon-i-am-ahab-lyrics",
+          "image_url": "https://images.genius.com/2316464f1bf658dc608601589e27ba44.1000x1000x1.jpg"
+        },
+        {
+          "title": "Ancient Kingdom",
+          "url": "https://genius.com/Mastodon-ancient-kingdom-lyrics",
+          "image_url": "https://images.genius.com/e3a38f4ca937501816c474e94d77e2e3.640x640x1.jpg"
+        },
+        {
+          "title": "North Side Star",
+          "url": "https://genius.com/Mastodon-north-side-star-lyrics",
+          "image_url": "https://images.genius.com/ecb4cc7c171c98c7513b68234a2e75d9.1000x1000x1.jpg"
+        },
+        {
+          "title": "Colony of Birchmen",
+          "url": "https://genius.com/Mastodon-colony-of-birchmen-lyrics",
+          "image_url": "https://images.genius.com/4def2112264fe373dbe976a267e137a7.600x600x1.jpg"
+        },
+        {
+          "title": "Precious Stones",
+          "url": "https://genius.com/Mastodon-precious-stones-lyrics",
+          "image_url": "https://images.genius.com/e3a38f4ca937501816c474e94d77e2e3.640x640x1.jpg"
+        },
+        {
+          "title": "Seabeast",
+          "url": "https://genius.com/Mastodon-seabeast-lyrics",
+          "image_url": "https://images.genius.com/2316464f1bf658dc608601589e27ba44.1000x1000x1.jpg"
+        },
+        {
+          "title": "Clandestiny",
+          "url": "https://genius.com/Mastodon-clandestiny-lyrics",
+          "image_url": "https://images.genius.com/e3a38f4ca937501816c474e94d77e2e3.640x640x1.jpg"
+        },
+        {
+          "title": "Blue Walsh",
+          "url": "https://genius.com/Mastodon-blue-walsh-lyrics",
+          "image_url": "https://images.genius.com/ecb4cc7c171c98c7513b68234a2e75d9.1000x1000x1.jpg"
+        },
+        {
+          "title": "Curl of the Burl",
+          "url": "https://genius.com/Mastodon-curl-of-the-burl-lyrics",
+          "image_url": "https://images.genius.com/a5a6c0583f3f45ad25b2bc558c76d3bb.500x500x1.jpg"
+        },
+        {
+          "title": "Ghost of Karelia",
+          "url": "https://genius.com/Mastodon-ghost-of-karelia-lyrics",
+          "image_url": "https://images.genius.com/c951eee075f8f489820d062f3230eb56.1000x1000x1.jpg"
+        },
+        {
+          "title": "Teardrinker",
+          "url": "https://genius.com/Mastodon-teardrinker-lyrics",
+          "image_url": "https://images.genius.com/98e4f09aee000abc22e769631c17e249.877x877x1.png"
+        },
+        {
+          "title": "Hearts Alive",
+          "url": "https://genius.com/Mastodon-hearts-alive-lyrics",
+          "image_url": "https://images.genius.com/2316464f1bf658dc608601589e27ba44.1000x1000x1.jpg"
+        },
+        {
+          "title": "High Road",
+          "url": "https://genius.com/Mastodon-high-road-lyrics",
+          "image_url": "https://images.genius.com/b0ee6f6c1ab44a64a5affe9622f7f470.640x640x1.jpg"
+        },
+        {
+          "title": "The Hunter",
+          "url": "https://genius.com/Mastodon-the-hunter-lyrics",
+          "image_url": "https://images.genius.com/c19d86da7f21a1793dbd5b71b0cad3eb.1000x1000x1.jpg"
+        },
+        {
+          "title": "More Than I Could Chew",
+          "url": "https://genius.com/Mastodon-more-than-i-could-chew-lyrics",
+          "image_url": "https://images.genius.com/5064e56154334ab16690d12867cc1021.1000x1000x1.png"
+        },
+        {
+          "title": "Sleeping Giant",
+          "url": "https://genius.com/Mastodon-sleeping-giant-lyrics",
+          "image_url": "https://images.genius.com/09bfdd995f27791d0eb1218ec0109591.1000x1000x1.jpg"
+        },
+        {
+          "title": "Quintessence",
+          "url": "https://genius.com/Mastodon-quintessence-lyrics",
+          "image_url": "https://images.genius.com/c951eee075f8f489820d062f3230eb56.1000x1000x1.jpg"
+        },
+        {
+          "title": "The Wolf Is Loose",
+          "url": "https://genius.com/Mastodon-the-wolf-is-loose-lyrics",
+          "image_url": "https://images.genius.com/09bfdd995f27791d0eb1218ec0109591.1000x1000x1.jpg"
+        },
+        {
+          "title": "Tread Lightly",
+          "url": "https://genius.com/Mastodon-tread-lightly-lyrics",
+          "image_url": "https://images.genius.com/f619ec99191cbb4550340743a36b534f.1000x1000x1.jpg"
+        },
+        {
+          "title": "Asleep in the Deep",
+          "url": "https://genius.com/Mastodon-asleep-in-the-deep-lyrics",
+          "image_url": "https://images.genius.com/f619ec99191cbb4550340743a36b534f.1000x1000x1.jpg"
+        },
+        {
+          "title": "Aqua Dementia",
+          "url": "https://genius.com/Mastodon-aqua-dementia-lyrics",
+          "image_url": "https://images.genius.com/2316464f1bf658dc608601589e27ba44.1000x1000x1.jpg"
+        },
+        {
+          "title": "Megalodon",
+          "url": "https://genius.com/Mastodon-megalodon-lyrics",
+          "image_url": "https://images.genius.com/2316464f1bf658dc608601589e27ba44.1000x1000x1.jpg"
+        },
+        {
+          "title": "Iron Tusk",
+          "url": "https://genius.com/Mastodon-iron-tusk-lyrics",
+          "image_url": "https://images.genius.com/57fd0b64bd1e030384f89120a7d9f242.272x271x1.jpg"
+        },
+        {
+          "title": "Andromeda",
+          "url": "https://genius.com/Mastodon-andromeda-lyrics",
+          "image_url": "https://images.genius.com/e3a38f4ca937501816c474e94d77e2e3.640x640x1.jpg"
+        },
+        {
+          "title": "Once More ’Round the Sun",
+          "url": "https://genius.com/Mastodon-once-more-round-the-sun-lyrics",
+          "image_url": "https://images.genius.com/f619ec99191cbb4550340743a36b534f.1000x1000x1.jpg"
+        },
+        {
+          "title": "Capillarian Crest",
+          "url": "https://genius.com/Mastodon-capillarian-crest-lyrics",
+          "image_url": "https://images.genius.com/420098feb9454b8c5c70629bca7b25d8.600x521x1.jpg"
+        },
+        {
+          "title": "Island",
+          "url": "https://genius.com/Mastodon-island-lyrics",
+          "image_url": "https://images.genius.com/2316464f1bf658dc608601589e27ba44.1000x1000x1.jpg"
+        },
+        {
+          "title": "Crystal Skull",
+          "url": "https://genius.com/Mastodon-crystal-skull-lyrics",
+          "image_url": "https://images.genius.com/09bfdd995f27791d0eb1218ec0109591.1000x1000x1.jpg"
+        },
+        {
+          "title": "Sickle and Peace",
+          "url": "https://genius.com/Mastodon-sickle-and-peace-lyrics",
+          "image_url": "https://images.genius.com/5064e56154334ab16690d12867cc1021.1000x1000x1.png"
+        },
+        {
+          "title": "Pain with an Anchor",
+          "url": "https://genius.com/Mastodon-pain-with-an-anchor-lyrics",
+          "image_url": "https://images.genius.com/5064e56154334ab16690d12867cc1021.1000x1000x1.png"
+        },
+        {
+          "title": "Scorpion Breath",
+          "url": "https://genius.com/Mastodon-scorpion-breath-lyrics",
+          "image_url": "https://images.genius.com/e3a38f4ca937501816c474e94d77e2e3.640x640x1.jpg"
+        },
+        {
+          "title": "Naked Burn",
+          "url": "https://genius.com/Mastodon-naked-burn-lyrics",
+          "image_url": "https://images.genius.com/2316464f1bf658dc608601589e27ba44.1000x1000x1.jpg"
+        },
+        {
+          "title": "Circle of Cysquatch",
+          "url": "https://genius.com/Mastodon-circle-of-cysquatch-lyrics",
+          "image_url": "https://images.genius.com/09bfdd995f27791d0eb1218ec0109591.1000x1000x1.jpg"
+        },
+        {
+          "title": "March of the Fire Ants",
+          "url": "https://genius.com/Mastodon-march-of-the-fire-ants-lyrics",
+          "image_url": "https://images.genius.com/b0d50c5a8c133a16931236802f66a028.800x800x1.jpg"
+        },
+        {
+          "title": "The Crux",
+          "url": "https://genius.com/Mastodon-the-crux-lyrics",
+          "image_url": "https://images.genius.com/5064e56154334ab16690d12867cc1021.1000x1000x1.png"
+        },
+        {
+          "title": "Cut You Up with a Linoleum Knife",
+          "url": "https://genius.com/Mastodon-cut-you-up-with-a-linoleum-knife-lyrics",
+          "image_url": "https://images.genius.com/274238ab8c0247acf61f58e25a519129.300x300x1.jpg"
+        },
+        {
+          "title": "Pendulous Skin",
+          "url": "https://genius.com/Mastodon-pendulous-skin-lyrics",
+          "image_url": "https://images.genius.com/09bfdd995f27791d0eb1218ec0109591.1000x1000x1.jpg"
+        },
+        {
+          "title": "Siberian Divide",
+          "url": "https://genius.com/Mastodon-siberian-divide-lyrics",
+          "image_url": "https://images.genius.com/09bfdd995f27791d0eb1218ec0109591.1000x1000x1.jpg"
+        },
+        {
+          "title": "The Sparrow",
+          "url": "https://genius.com/Mastodon-the-sparrow-lyrics",
+          "image_url": "https://images.genius.com/c19d86da7f21a1793dbd5b71b0cad3eb.1000x1000x1.jpg"
+        },
+        {
+          "title": "The Beast",
+          "url": "https://genius.com/Mastodon-the-beast-lyrics",
+          "image_url": "https://images.genius.com/5064e56154334ab16690d12867cc1021.1000x1000x1.png"
+        },
+        {
+          "title": "Black Tongue",
+          "url": "https://genius.com/Mastodon-black-tongue-lyrics",
+          "image_url": "https://images.genius.com/9ccc7f048bfe28c61e2aeb7658e679ab.600x600x1.jpg"
+        },
+        {
+          "title": "Gigantium",
+          "url": "https://genius.com/Mastodon-gigantium-lyrics",
+          "image_url": "https://images.genius.com/5064e56154334ab16690d12867cc1021.1000x1000x1.png"
+        },
+        {
+          "title": "Stargasm",
+          "url": "https://genius.com/Mastodon-stargasm-lyrics",
+          "image_url": "https://images.genius.com/c19d86da7f21a1793dbd5b71b0cad3eb.1000x1000x1.jpg"
+        },
+        {
+          "title": "This Mortal Soil",
+          "url": "https://genius.com/Mastodon-this-mortal-soil-lyrics",
+          "image_url": "https://images.genius.com/09bfdd995f27791d0eb1218ec0109591.1000x1000x1.jpg"
+        },
+        {
+          "title": "Pushing the Tides",
+          "url": "https://genius.com/Mastodon-pushing-the-tides-lyrics",
+          "image_url": "https://images.genius.com/98e4f09aee000abc22e769631c17e249.877x877x1.png"
+        },
+        {
+          "title": "Chimes at Midnight",
+          "url": "https://genius.com/Mastodon-chimes-at-midnight-lyrics",
+          "image_url": "https://images.genius.com/3c37ef405f5c70a3f697b9aef68c01d0.640x640x1.jpg"
+        },
+        {
+          "title": "Crusher Destroyer",
+          "url": "https://genius.com/Mastodon-crusher-destroyer-lyrics",
+          "image_url": "https://images.genius.com/c17695631a80c2e2cc4686a320c90e95.863x863x1.jpg"
+        },
+        {
+          "title": "Ember City",
+          "url": "https://genius.com/Mastodon-ember-city-lyrics",
+          "image_url": "https://images.genius.com/f619ec99191cbb4550340743a36b534f.1000x1000x1.jpg"
+        },
+        {
+          "title": "Skeleton of Splendor",
+          "url": "https://genius.com/Mastodon-skeleton-of-splendor-lyrics",
+          "image_url": "https://images.genius.com/5064e56154334ab16690d12867cc1021.1000x1000x1.png"
+        },
+        {
+          "title": "Aunt Lisa",
+          "url": "https://genius.com/Mastodon-aunt-lisa-lyrics",
+          "image_url": "https://images.genius.com/f619ec99191cbb4550340743a36b534f.1000x1000x1.jpg"
+        },
+        {
+          "title": "Bladecatcher",
+          "url": "https://genius.com/Mastodon-bladecatcher-lyrics",
+          "image_url": "https://images.genius.com/09bfdd995f27791d0eb1218ec0109591.1000x1000x1.jpg"
+        },
+        {
+          "title": "Had It All",
+          "url": "https://genius.com/Mastodon-had-it-all-lyrics",
+          "image_url": "https://images.genius.com/5064e56154334ab16690d12867cc1021.1000x1000x1.png"
+        },
+        {
+          "title": "Blasteroid",
+          "url": "https://genius.com/Mastodon-blasteroid-lyrics",
+          "image_url": "https://images.genius.com/c19d86da7f21a1793dbd5b71b0cad3eb.1000x1000x1.jpg"
+        },
+        {
+          "title": "Eyes of Serpents",
+          "url": "https://genius.com/Mastodon-eyes-of-serpents-lyrics",
+          "image_url": "https://images.genius.com/5064e56154334ab16690d12867cc1021.1000x1000x1.png"
+        },
+        {
+          "title": "Joseph Merrick",
+          "url": "https://genius.com/Mastodon-joseph-merrick-lyrics",
+          "image_url": "https://images.genius.com/2316464f1bf658dc608601589e27ba44.1000x1000x1.jpg"
+        },
+        {
+          "title": "Fallen Torches",
+          "url": "https://genius.com/Mastodon-fallen-torches-lyrics",
+          "image_url": "https://images.genius.com/3b788ceddf73741e336596ccfdbb43b5.1000x1000x1.jpg"
+        },
+        {
+          "title": "Diamond in the Witch House",
+          "url": "https://genius.com/Mastodon-diamond-in-the-witch-house-lyrics",
+          "image_url": "https://images.genius.com/f619ec99191cbb4550340743a36b534f.1000x1000x1.jpg"
+        },
+        {
+          "title": "Octopus Has No Friends",
+          "url": "https://genius.com/Mastodon-octopus-has-no-friends-lyrics",
+          "image_url": "https://images.genius.com/c19d86da7f21a1793dbd5b71b0cad3eb.1000x1000x1.jpg"
+        },
+        {
+          "title": "Mother Puncher",
+          "url": "https://genius.com/Mastodon-mother-puncher-lyrics",
+          "image_url": "https://images.genius.com/b0d50c5a8c133a16931236802f66a028.800x800x1.jpg"
+        },
+        {
+          "title": "Halloween",
+          "url": "https://genius.com/Mastodon-halloween-lyrics",
+          "image_url": "https://images.genius.com/f619ec99191cbb4550340743a36b534f.1000x1000x1.jpg"
+        },
+        {
+          "title": "Dry Bone Valley",
+          "url": "https://genius.com/Mastodon-dry-bone-valley-lyrics",
+          "image_url": "https://images.genius.com/55b95ec9bb54b16debcd345cd419c694.640x640x1.jpg"
+        },
+        {
+          "title": "Gobblers of Dregs",
+          "url": "https://genius.com/Mastodon-gobblers-of-dregs-lyrics",
+          "image_url": "https://images.genius.com/5064e56154334ab16690d12867cc1021.1000x1000x1.png"
+        },
+        {
+          "title": "Peace and Tranquility",
+          "url": "https://genius.com/Mastodon-peace-and-tranquility-lyrics",
+          "image_url": "https://images.genius.com/5064e56154334ab16690d12867cc1021.1000x1000x1.png"
+        },
+        {
+          "title": "Hunters of the Sky",
+          "url": "https://genius.com/Mastodon-hunters-of-the-sky-lyrics",
+          "image_url": "https://images.genius.com/09bfdd995f27791d0eb1218ec0109591.1000x1000x1.jpg"
+        },
+        {
+          "title": "Hand of Stone",
+          "url": "https://genius.com/Mastodon-hand-of-stone-lyrics",
+          "image_url": "https://images.genius.com/09bfdd995f27791d0eb1218ec0109591.1000x1000x1.jpg"
+        },
+        {
+          "title": "Workhorse",
+          "url": "https://genius.com/Mastodon-workhorse-lyrics",
+          "image_url": "https://images.genius.com/b0d50c5a8c133a16931236802f66a028.800x800x1.jpg"
+        },
+        {
+          "title": "All the Heavy Lifting",
+          "url": "https://genius.com/Mastodon-all-the-heavy-lifting-lyrics",
+          "image_url": "https://images.genius.com/c19d86da7f21a1793dbd5b71b0cad3eb.1000x1000x1.jpg"
+        },
+        {
+          "title": "Where Strides the Behemoth",
+          "url": "https://genius.com/Mastodon-where-strides-the-behemoth-lyrics",
+          "image_url": "https://images.genius.com/b0d50c5a8c133a16931236802f66a028.800x800x1.jpg"
+        },
+        {
+          "title": "Dagger",
+          "url": "https://genius.com/Mastodon-dagger-lyrics",
+          "image_url": "https://images.genius.com/5064e56154334ab16690d12867cc1021.1000x1000x1.png"
+        },
+        {
+          "title": "Creature Lives",
+          "url": "https://genius.com/Mastodon-creature-lives-lyrics",
+          "image_url": "https://images.genius.com/c19d86da7f21a1793dbd5b71b0cad3eb.1000x1000x1.jpg"
+        },
+        {
+          "title": "White Walker",
+          "url": "https://genius.com/Mastodon-white-walker-lyrics",
+          "image_url": "https://images.genius.com/79300fbca741c0da5f837d0dcfdecf18.1000x1000x1.jpg"
+        },
+        {
+          "title": "Savage Lands",
+          "url": "https://genius.com/Mastodon-savage-lands-lyrics",
+          "image_url": "https://images.genius.com/5064e56154334ab16690d12867cc1021.1000x1000x1.png"
+        },
+        {
+          "title": "Ol’e Nessie",
+          "url": "https://genius.com/Mastodon-ole-nessie-lyrics",
+          "image_url": "https://images.genius.com/b0d50c5a8c133a16931236802f66a028.800x800x1.jpg"
+        },
+        {
+          "title": "Thickening",
+          "url": "https://genius.com/Mastodon-thickening-lyrics",
+          "image_url": "https://images.genius.com/c19d86da7f21a1793dbd5b71b0cad3eb.1000x1000x1.jpg"
+        },
+        {
+          "title": "Trainwreck",
+          "url": "https://genius.com/Mastodon-trainwreck-lyrics",
+          "image_url": "https://images.genius.com/b0d50c5a8c133a16931236802f66a028.800x800x1.jpg"
+        },
+        {
+          "title": "Feast Your Eyes",
+          "url": "https://genius.com/Mastodon-feast-your-eyes-lyrics",
+          "image_url": "https://images.genius.com/f619ec99191cbb4550340743a36b534f.1000x1000x1.jpg"
+        },
+        {
+          "title": "Elephant Man",
+          "url": "https://genius.com/Mastodon-elephant-man-lyrics",
+          "image_url": "https://images.genius.com/b0d50c5a8c133a16931236802f66a028.800x800x1.jpg"
+        },
+        {
+          "title": "Spectrelight",
+          "url": "https://genius.com/Mastodon-spectrelight-lyrics",
+          "image_url": "https://images.genius.com/c19d86da7f21a1793dbd5b71b0cad3eb.1000x1000x1.jpg"
+        },
+        {
+          "title": "Shadows That Move",
+          "url": "https://genius.com/Mastodon-shadows-that-move-lyrics",
+          "image_url": "https://images.genius.com/c255d76df528f293bbe03b17e006a768.1000x1000x1.jpg"
+        },
+        {
+          "title": "Floods of Triton",
+          "url": "https://genius.com/Mastodon-and-lamb-of-god-floods-of-triton-lyrics",
+          "image_url": "https://images.genius.com/39b152a249bf3e26becb3e6da9760039.1000x1000x1.png"
+        },
+        {
+          "title": "Bedazzled Fingernails",
+          "url": "https://genius.com/Mastodon-bedazzled-fingernails-lyrics",
+          "image_url": "https://images.genius.com/c19d86da7f21a1793dbd5b71b0cad3eb.1000x1000x1.jpg"
+        },
+        {
+          "title": "Atlanta",
+          "url": "https://genius.com/Mastodon-atlanta-lyrics",
+          "image_url": "https://images.genius.com/490745e9bb04db4dffa64e73e2111589.1000x1000x1.jpg"
+        },
+        {
+          "title": "Trilobite",
+          "url": "https://genius.com/Mastodon-trilobite-lyrics",
+          "image_url": "https://images.genius.com/b0d50c5a8c133a16931236802f66a028.800x800x1.jpg"
+        },
+        {
+          "title": "Deathbound",
+          "url": "https://genius.com/Mastodon-deathbound-lyrics",
+          "image_url": "https://images.genius.com/d8ab1f81a364b62fc4219b85eff18f0b.800x800x1.jpg"
+        },
+        {
+          "title": "The Ruiner",
+          "url": "https://genius.com/Mastodon-the-ruiner-lyrics",
+          "image_url": "https://images.genius.com/c19d86da7f21a1793dbd5b71b0cad3eb.1000x1000x1.jpg"
+        }
+      ]
+    },
+    "timestamp": 1743512757.3318148
   }
 }
