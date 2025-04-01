@@ -84,3 +84,4 @@ tests-report/
 node_modules/
 
 .testes/
+.cache/
