@@ -1,6 +1,6 @@
 # Projeto: Busca e Análise de Letras de Músicas 🎵
 
-Este projeto é uma aplicação web que permite aos usuários buscar informações sobre artistas, visualizar letras de músicas, traduzi-las para o português e obter explicações detalhadas sobre o significado das letras. Ele combina uma API backend em Python com um frontend moderno em React para oferecer uma experiência rica e interativa.
+Este projeto é uma aplicação web que permite aos usuários buscar informações sobre artistas, visualizar letras de músicas, traduzi-las para o português e obter explicações detalhadas sobre o significado das letras. Ele combina uma API backend em Python com um frontend feito em React para oferecer uma experiência interativa com conteúdo gerado por IA. Gostou? Deixe uma estrelinha ⭐
 
 ## Funcionalidades Principais
 
@@ -9,6 +9,21 @@ Este projeto é uma aplicação web que permite aos usuários buscar informaçõ
 - **Tradução**: Traduza letras de músicas para o português usando o modelo Gemini.
 - **Explicação**: Obtenha explicações detalhadas sobre o significado das letras.
 - **Cache Inteligente**: Reduza chamadas desnecessárias às APIs externas com um sistema de cache eficiente.
+
+## Screenshots
+
+### Interface Inicial e Busca
+
+![Tela inicial da aplicação](/screenshots/Home.jpeg)
+_Tela inicial com campo de busca e histórico de pesquisas recentes_
+
+![Resultados da busca](/screenshots/Card_Artista.jpeg)
+_Card do Artista_
+
+### Visualização de Letras
+
+![Visualização de letra](/screenshots/Card_Letra-Explanacao.jpeg)
+_Exibição da letra e da explicação_
 
 ---
 
