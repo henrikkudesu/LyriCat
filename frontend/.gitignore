@@ -22,3 +22,25 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Arquivos de cache
+.cache/
+.parcel-cache/
+
+# Arquivos de cobertura
+coverage/
+
+# Arquivos de variáveis de ambiente
+.env*
+!.env.example
+
+# Arquivos gerados por ferramentas de análise estática
+.eslintcache
+.stylelintcache
+
+# Pastas de produção
+/frontend/build/
+
+# Backups
+*.bak
+*.backup

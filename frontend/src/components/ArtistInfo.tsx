@@ -292,7 +292,7 @@ const ArtistInfo: React.FC<ArtistInfoProps> = ({ artistName }) => {
           <div
             style={{
               display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fill, minmax(150px, 1fr))',
+              gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))',
               gap: '16px',
               justifyContent: 'center', // Centraliza os cards
               justifyItems: 'center', // Centraliza cada item individual

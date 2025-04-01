@@ -5,6 +5,7 @@ import unicodedata
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 from .config import API_TIMEOUT, headers
+import re
 
 # Carregar variáveis do .env
 load_dotenv()
@@ -138,16 +139,51 @@ def get_artist_songs(artist_id, per_page=50, max_songs=100):
         # Retornar as músicas que já conseguimos obter, mesmo com erro
         return all_songs if all_songs else None
 
+def is_valid_lyrics_container(div):
+    """
+    Retorna True se nenhuma das classes do div corresponde a um cabeçalho de letra.
+    """
+    classes = div.get("class", [])
+    for cls in classes:
+        if re.search(r'LyricsHeader', cls):
+            return False
+    return True
+
 def fetch_lyrics_from_url(url):
-    """Extrai a letra completa da página do Genius."""
+    """Extrai a letra completa da página do Genius, evitando headers indesejados."""
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                      "AppleWebKit/537.36 (KHTML, like Gecko) "
+                      "Chrome/91.0.4472.124 Safari/537.36"
     }
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, "html.parser")
-        lyrics_divs = soup.find_all("div", class_="Lyrics__Container-sc-926d9e10-1")
+        
+        # Tenta primeiro com data-lyrics-container
+        lyrics_divs = soup.find_all("div", attrs={"data-lyrics-container": "true"})
+        
+        # Caso não encontre, usa seletor CSS com filtragem via função auxiliar
+        if not lyrics_divs:
+            lyrics_divs = soup.select("div[class^='Lyrics__Container-']")
+            lyrics_divs = [div for div in lyrics_divs if is_valid_lyrics_container(div)]
+        
         if lyrics_divs:
             lyrics = "\n".join(div.get_text(separator="\n") for div in lyrics_divs)
             return lyrics.strip()
     return None
+
+# Essa função busca  pela tag Lyrics__Container-sc-e3d9a1f6-1, um valor fixo, porém, aparentemente ela é dinâmica e muda de tempos em tempos. A função acima obtém a tag correta.
+#def fetch_lyrics_from_url(url):
+#    """Extrai a letra completa da página do Genius."""
+#    headers = {
+#        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+#    }
+#    response = requests.get(url, headers=headers)
+#    if response.status_code == 200:
+#        soup = BeautifulSoup(response.text, "html.parser")
+#        lyrics_divs = soup.find_all("div", class_="Lyrics__Container-sc-e3d9a1f6-1")
+#        if lyrics_divs:
+#            lyrics = "\n".join(div.get_text(separator="\n") for div in lyrics_divs)
+#            return lyrics.strip()
+#    return None

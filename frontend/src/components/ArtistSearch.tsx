@@ -1,37 +1,53 @@
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import axios from 'axios';
 
 interface Song {
   title: string;
   url: string;
+  image_url?: string;
 }
 
 interface ArtistSearchProps {
+  searchTerm: string;
+  onSearchTermChange: (term: string) => void;
+  onSearchStart: () => void;
   onSongsFetched: (songs: Song[]) => void;
+  onSearchSubmit: (term: string) => void; // Novo callback para notificar que a busca foi submetida
 }
 
-const ArtistSearch: React.FC<ArtistSearchProps> = ({ onSongsFetched }) => {
-  const [artist, setArtist] = useState<string>('');
+const ArtistSearch: React.FC<ArtistSearchProps> = ({
+  searchTerm,
+  onSearchTermChange,
+  onSearchStart,
+  onSongsFetched,
+  onSearchSubmit,
+}) => {
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string>('');
 
-  const handleSearch = async () => {
-    if (!artist.trim()) return;
+  const handleSearch = useCallback(async () => {
+    if (!searchTerm.trim()) return;
+
+    // Notificar o componente pai que a busca foi submetida
+    onSearchSubmit(searchTerm);
 
     try {
       setLoading(true);
       setError('');
+      onSearchStart(); // Notifica o componente pai que a busca iniciou
+
       const response = await axios.get(
-        `/api/search_artist?artist=${encodeURIComponent(artist)}`
+        `/api/search_artist?artist=${encodeURIComponent(searchTerm)}`
       );
       onSongsFetched(response.data.songs);
     } catch (err) {
+      console.error('Error searching artist:', err);
       setError('Artista não encontrado ou erro na busca.');
       onSongsFetched([]);
     } finally {
       setLoading(false);
     }
-  };
+  }, [searchTerm, onSearchStart, onSongsFetched, onSearchSubmit]);
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === 'Enter') {
@@ -52,8 +68,8 @@ const ArtistSearch: React.FC<ArtistSearchProps> = ({ onSongsFetched }) => {
         <input
           type="text"
           placeholder="Digite o nome do artista"
-          value={artist}
-          onChange={(e) => setArtist(e.target.value)}
+          value={searchTerm}
+          onChange={(e) => onSearchTermChange(e.target.value)}
           onKeyDown={handleKeyDown}
           style={{
             flex: 1,
@@ -75,6 +91,7 @@ const ArtistSearch: React.FC<ArtistSearchProps> = ({ onSongsFetched }) => {
             fontSize: '16px',
             cursor: loading ? 'wait' : 'pointer',
             opacity: loading ? 0.7 : 1,
+            color: 'white',
           }}
         >
           {loading ? 'Buscando...' : 'Buscar'}

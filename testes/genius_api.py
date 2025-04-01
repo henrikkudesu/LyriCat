@@ -83,7 +83,7 @@ def fetch_lyrics_from_url(url):
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, "html.parser")
         # Tentar encontrar a letra na classe "Lyrics__Container"
-        lyrics_divs = soup.find_all("div", class_="Lyrics__Container-sc-926d9e10-1")
+        lyrics_divs = soup.find_all("div", class_="Lyrics__Container-sc-e3d9a1f6-1")
         if lyrics_divs:
             lyrics = "\n".join(div.get_text(separator="\n") for div in lyrics_divs)
             return lyrics.strip()
