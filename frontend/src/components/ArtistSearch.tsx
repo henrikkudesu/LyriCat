@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import axios from 'axios';
 
 interface Song {
@@ -12,7 +12,7 @@ interface ArtistSearchProps {
   onSearchTermChange: (term: string) => void;
   onSearchStart: () => void;
   onSongsFetched: (songs: Song[]) => void;
-  onSearchSubmit: (term: string) => void; // Novo callback para notificar que a busca foi submetida
+  onSearchSubmit: (term: string) => void;
 }
 
 const ArtistSearch: React.FC<ArtistSearchProps> = ({
@@ -24,6 +24,26 @@ const ArtistSearch: React.FC<ArtistSearchProps> = ({
 }) => {
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string>('');
+  const [isMobile, setIsMobile] = useState<boolean>(false);
+  const [isVerySmall, setIsVerySmall] = useState<boolean>(false);
+
+  useEffect(() => {
+    const checkScreenSize = () => {
+      setIsMobile(window.innerWidth <= 768);
+      setIsVerySmall(window.innerWidth <= 400);
+    };
+
+    // Verificar inicialmente
+    checkScreenSize();
+
+    // Adicionar listener para redimensionamento
+    window.addEventListener('resize', checkScreenSize);
+
+    // Cleanup
+    return () => {
+      window.removeEventListener('resize', checkScreenSize);
+    };
+  }, []);
 
   const handleSearch = useCallback(async () => {
     if (!searchTerm.trim()) return;
@@ -56,7 +76,14 @@ const ArtistSearch: React.FC<ArtistSearchProps> = ({
   };
 
   return (
-    <div style={{ textAlign: 'center', maxWidth: '600px', margin: '0 auto' }}>
+    <div
+      style={{
+        textAlign: 'center',
+        maxWidth: '600px',
+        margin: '0 auto',
+        padding: isMobile ? '0 16px' : '0',
+      }}
+    >
       <div
         style={{
           display: 'flex',
@@ -67,15 +94,17 @@ const ArtistSearch: React.FC<ArtistSearchProps> = ({
       >
         <input
           type="text"
-          placeholder="Digite o nome do artista"
+          placeholder={
+            isVerySmall ? 'Nome do artista' : 'Digite o nome do artista'
+          }
           value={searchTerm}
           onChange={(e) => onSearchTermChange(e.target.value)}
           onKeyDown={handleKeyDown}
           style={{
             flex: 1,
             border: 'none',
-            padding: '10px 16px',
-            fontSize: '16px',
+            padding: isMobile ? '10px 12px' : '10px 16px',
+            fontSize: isMobile ? '15px' : '16px',
             backgroundColor: 'transparent',
             color: 'white',
             outline: 'none',
@@ -85,20 +114,64 @@ const ArtistSearch: React.FC<ArtistSearchProps> = ({
           onClick={handleSearch}
           disabled={loading}
           style={{
-            padding: '10px 16px',
+            padding: isVerySmall
+              ? '10px 12px'
+              : isMobile
+              ? '10px 14px'
+              : '10px 16px',
             border: 'none',
             backgroundColor: '#646cff',
-            fontSize: '16px',
+            fontSize: isMobile ? '15px' : '16px',
             cursor: loading ? 'wait' : 'pointer',
             opacity: loading ? 0.7 : 1,
             color: 'white',
+            whiteSpace: 'nowrap',
+            minWidth: isVerySmall ? '64px' : '80px',
+            flexShrink: 0,
+            flexBasis: isVerySmall ? '64px' : '80px',
+            boxSizing: 'border-box',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
           }}
         >
-          {loading ? 'Buscando...' : 'Buscar'}
+          {loading ? (
+            isVerySmall ? (
+              '...'
+            ) : (
+              'Buscando...'
+            )
+          ) : isVerySmall ? (
+            <span
+              style={{
+                display: 'inline-flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                fontSize: '18px',
+                lineHeight: 1,
+                height: '18px',
+                width: '18px',
+              }}
+            >
+              🔍
+            </span>
+          ) : (
+            'Buscar'
+          )}
         </button>
       </div>
 
-      {error && <p style={{ color: '#ff6b6b', marginTop: '12px' }}>{error}</p>}
+      {error && (
+        <p
+          style={{
+            color: '#ff6b6b',
+            marginTop: '12px',
+            fontSize: isMobile ? '14px' : '16px',
+          }}
+        >
+          {error}
+        </p>
+      )}
     </div>
   );
 };

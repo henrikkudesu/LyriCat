@@ -16,6 +16,27 @@ const SongList: React.FC<SongListProps> = ({ songs, onSelectSong }) => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   const [imageErrors, setImageErrors] = useState<Record<number, boolean>>({});
   const [searchTerm, setSearchTerm] = useState<string>('');
+  const [isMobile, setIsMobile] = useState<boolean>(false);
+  const [isVerySmall, setIsVerySmall] = useState<boolean>(false);
+
+  useEffect(() => {
+    // Função para verificar e atualizar o estado conforme o tamanho da tela
+    const checkScreenSize = () => {
+      setIsMobile(window.innerWidth <= 768);
+      setIsVerySmall(window.innerWidth <= 480);
+    };
+
+    // Verificar inicialmente
+    checkScreenSize();
+
+    // Adicionar listener para redimensionamento
+    window.addEventListener('resize', checkScreenSize);
+
+    // Cleanup
+    return () => {
+      window.removeEventListener('resize', checkScreenSize);
+    };
+  }, []);
 
   const loadMore = () => {
     setVisibleCount((prev) => prev + 12);
@@ -56,26 +77,36 @@ const SongList: React.FC<SongListProps> = ({ songs, onSelectSong }) => {
       <div
         style={{
           display: 'flex',
+          flexDirection: isMobile ? 'column' : 'row',
           justifyContent: 'space-between',
-          alignItems: 'center',
-          marginBottom: '20px',
+          alignItems: isMobile ? 'flex-start' : 'center',
+          marginBottom: isMobile ? '16px' : '20px',
+          gap: isMobile ? '12px' : '0',
         }}
       >
-        <h2>Músicas Encontradas</h2>
+        <h2
+          style={{
+            margin: isMobile ? '0 0 8px 0' : '0',
+            fontSize: isMobile ? '20px' : '24px',
+          }}
+        >
+          Músicas Encontradas
+        </h2>
         <div
           style={{
             display: 'flex',
             alignItems: 'center',
             backgroundColor: '#444',
             borderRadius: '20px',
-            padding: '8px 16px',
-            width: '240px',
+            padding: isMobile ? '6px 12px' : '8px 16px',
+            width: isMobile ? '100%' : '240px',
+            maxWidth: '100%',
           }}
         >
           <span style={{ marginRight: '8px', opacity: 0.7 }}>🔍</span>
           <input
             type="text"
-            placeholder="Filtrar músicas..."
+            placeholder={isVerySmall ? 'Filtrar...' : 'Filtrar músicas...'}
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             style={{
@@ -84,6 +115,7 @@ const SongList: React.FC<SongListProps> = ({ songs, onSelectSong }) => {
               outline: 'none',
               color: 'white',
               width: '100%',
+              fontSize: isMobile ? '14px' : '15px',
             }}
           />
           {searchTerm && (
@@ -108,7 +140,7 @@ const SongList: React.FC<SongListProps> = ({ songs, onSelectSong }) => {
         <div
           style={{
             textAlign: 'center',
-            margin: '40px 0',
+            margin: isMobile ? '30px 0' : '40px 0',
             color: '#aaa',
           }}
         >
@@ -123,8 +155,12 @@ const SongList: React.FC<SongListProps> = ({ songs, onSelectSong }) => {
           className="song-grid"
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))',
-            gap: '20px',
+            gridTemplateColumns: isVerySmall
+              ? 'repeat(auto-fill, minmax(150px, 1fr))'
+              : isMobile
+              ? 'repeat(auto-fill, minmax(180px, 1fr))'
+              : 'repeat(auto-fill, minmax(220px, 1fr))',
+            gap: isVerySmall ? '12px' : isMobile ? '16px' : '20px',
           }}
         >
           {visibleSongs.map((song, index) => (
@@ -133,7 +169,7 @@ const SongList: React.FC<SongListProps> = ({ songs, onSelectSong }) => {
               className="song-card"
               style={{
                 backgroundColor: '#333',
-                borderRadius: '12px',
+                borderRadius: isVerySmall ? '8px' : '12px',
                 overflow: 'hidden',
                 transition: 'all 0.3s ease',
                 cursor: 'pointer',
@@ -151,7 +187,7 @@ const SongList: React.FC<SongListProps> = ({ songs, onSelectSong }) => {
               <div
                 className="song-image"
                 style={{
-                  height: '160px',
+                  height: isVerySmall ? '120px' : isMobile ? '140px' : '160px',
                   backgroundColor: '#555',
                   display: 'flex',
                   alignItems: 'center',
@@ -166,7 +202,14 @@ const SongList: React.FC<SongListProps> = ({ songs, onSelectSong }) => {
                 }}
               >
                 {(!song.image_url || imageErrors[index]) && (
-                  <div style={{ fontSize: '48px', opacity: 0.6 }}>🎵</div>
+                  <div
+                    style={{
+                      fontSize: isVerySmall ? '36px' : '48px',
+                      opacity: 0.6,
+                    }}
+                  >
+                    🎵
+                  </div>
                 )}
                 {song.image_url && !imageErrors[index] && (
                   <img
@@ -182,19 +225,24 @@ const SongList: React.FC<SongListProps> = ({ songs, onSelectSong }) => {
                     bottom: 0,
                     right: 0,
                     backgroundColor: 'rgba(0,0,0,0.6)',
-                    padding: '4px 8px',
-                    borderTopLeftRadius: '8px',
-                    fontSize: '12px',
+                    padding: isVerySmall ? '3px 6px' : '4px 8px',
+                    borderTopLeftRadius: isVerySmall ? '6px' : '8px',
+                    fontSize: isVerySmall ? '10px' : '12px',
                   }}
                 >
                   Ver letra
                 </div>
               </div>
-              <div className="song-info" style={{ padding: '16px' }}>
+              <div
+                className="song-info"
+                style={{
+                  padding: isVerySmall ? '12px' : isMobile ? '14px' : '16px',
+                }}
+              >
                 <h4
                   style={{
-                    margin: '0 0 8px 0',
-                    fontSize: '16px',
+                    margin: '0 0 6px 0',
+                    fontSize: isVerySmall ? '14px' : '16px',
                     whiteSpace: 'nowrap',
                     overflow: 'hidden',
                     textOverflow: 'ellipsis',
@@ -205,7 +253,7 @@ const SongList: React.FC<SongListProps> = ({ songs, onSelectSong }) => {
                 <p
                   style={{
                     margin: '0',
-                    fontSize: '14px',
+                    fontSize: isVerySmall ? '12px' : '14px',
                     color: '#aaa',
                     whiteSpace: 'nowrap',
                     overflow: 'hidden',
@@ -225,19 +273,19 @@ const SongList: React.FC<SongListProps> = ({ songs, onSelectSong }) => {
           style={{
             display: 'flex',
             justifyContent: 'center',
-            margin: '32px 0 16px',
+            margin: isMobile ? '24px 0 12px' : '32px 0 16px',
           }}
         >
           <button
             onClick={loadMore}
             style={{
-              padding: '10px 24px',
+              padding: isMobile ? '8px 16px' : '10px 24px',
               backgroundColor: '#464646',
               color: '#fff',
               border: 'none',
               borderRadius: '20px',
               cursor: 'pointer',
-              fontSize: '14px',
+              fontSize: isMobile ? '13px' : '14px',
               transition: 'background-color 0.3s',
             }}
             onMouseEnter={(e) =>

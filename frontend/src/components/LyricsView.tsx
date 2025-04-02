@@ -18,6 +18,25 @@ const LyricsView: React.FC<LyricsViewProps> = ({ songUrl, onBackClick }) => {
     title: '',
     artist: '',
   });
+  const [isMobile, setIsMobile] = useState<boolean>(false);
+
+  useEffect(() => {
+    // Função para verificar e atualizar o estado de acordo com o tamanho da tela
+    const checkIsMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    // Verificar inicialmente
+    checkIsMobile();
+
+    // Adicionar listener para redimensionamento
+    window.addEventListener('resize', checkIsMobile);
+
+    // Cleanup
+    return () => {
+      window.removeEventListener('resize', checkIsMobile);
+    };
+  }, []);
 
   useEffect(() => {
     const fetchLyrics = async () => {
@@ -110,6 +129,7 @@ const LyricsView: React.FC<LyricsViewProps> = ({ songUrl, onBackClick }) => {
           flexDirection: 'column',
           gap: '16px',
           backgroundColor: '#242424',
+          padding: isMobile ? '16px' : '24px',
         }}
       >
         <div
@@ -166,10 +186,19 @@ const LyricsView: React.FC<LyricsViewProps> = ({ songUrl, onBackClick }) => {
           flexDirection: 'column',
           gap: '16px',
           backgroundColor: '#242424',
+          padding: isMobile ? '16px' : '24px',
         }}
       >
         <div style={{ fontSize: '48px', marginBottom: '8px' }}>😕</div>
-        <div style={{ fontSize: '18px', marginBottom: '16px' }}>{error}</div>
+        <div
+          style={{
+            fontSize: '18px',
+            marginBottom: '16px',
+            textAlign: 'center',
+          }}
+        >
+          {error}
+        </div>
         <button
           onClick={onBackClick}
           style={{
@@ -196,7 +225,7 @@ const LyricsView: React.FC<LyricsViewProps> = ({ songUrl, onBackClick }) => {
   return (
     <div
       style={{
-        padding: '24px',
+        padding: isMobile ? '16px' : '24px',
         maxWidth: '1400px',
         margin: '0 auto',
         backgroundColor: '#242424',
@@ -208,10 +237,10 @@ const LyricsView: React.FC<LyricsViewProps> = ({ songUrl, onBackClick }) => {
         style={{
           display: 'flex',
           alignItems: 'center',
-          marginBottom: '24px',
-          gap: '16px',
+          marginBottom: isMobile ? '16px' : '24px',
+          gap: isMobile ? '8px' : '16px',
           borderBottom: '1px solid #333',
-          paddingBottom: '16px',
+          paddingBottom: isMobile ? '12px' : '16px',
         }}
       >
         <button
@@ -219,7 +248,7 @@ const LyricsView: React.FC<LyricsViewProps> = ({ songUrl, onBackClick }) => {
           style={{
             background: 'none',
             border: 'none',
-            fontSize: '24px',
+            fontSize: isMobile ? '20px' : '24px',
             cursor: 'pointer',
             display: 'flex',
             alignItems: 'center',
@@ -244,7 +273,7 @@ const LyricsView: React.FC<LyricsViewProps> = ({ songUrl, onBackClick }) => {
           <h1
             style={{
               margin: 0,
-              fontSize: '26px',
+              fontSize: isMobile ? '20px' : '26px',
               whiteSpace: 'nowrap',
               overflow: 'hidden',
               textOverflow: 'ellipsis',
@@ -256,7 +285,7 @@ const LyricsView: React.FC<LyricsViewProps> = ({ songUrl, onBackClick }) => {
             style={{
               margin: '4px 0 0 0',
               color: '#aaa',
-              fontSize: '16px',
+              fontSize: isMobile ? '14px' : '16px',
             }}
           >
             {songInfo.artist}
@@ -268,16 +297,18 @@ const LyricsView: React.FC<LyricsViewProps> = ({ songUrl, onBackClick }) => {
       <div
         style={{
           display: 'flex',
+          flexDirection: isMobile ? 'column' : 'row',
           justifyContent: 'center',
           gap: '12px',
-          marginBottom: '32px',
+          marginBottom: isMobile ? '24px' : '32px',
+          width: '100%',
         }}
       >
         <button
           onClick={handleTranslate}
           disabled={processingAI}
           style={{
-            padding: '12px 24px',
+            padding: isMobile ? '10px 16px' : '12px 24px',
             backgroundColor: !isExplaining && translation ? '#646cff' : '#333',
             border: 'none',
             borderRadius: '8px',
@@ -286,6 +317,7 @@ const LyricsView: React.FC<LyricsViewProps> = ({ songUrl, onBackClick }) => {
             transition: 'all 0.2s',
             fontSize: '15px',
             fontWeight: 'bold',
+            width: isMobile ? '100%' : 'auto',
           }}
           onMouseEnter={(e) => {
             if (!processingAI && (!translation || isExplaining)) {
@@ -304,7 +336,7 @@ const LyricsView: React.FC<LyricsViewProps> = ({ songUrl, onBackClick }) => {
           onClick={handleExplain}
           disabled={processingAI}
           style={{
-            padding: '12px 24px',
+            padding: isMobile ? '10px 16px' : '12px 24px',
             backgroundColor: isExplaining ? '#646cff' : '#333',
             border: 'none',
             borderRadius: '8px',
@@ -313,6 +345,7 @@ const LyricsView: React.FC<LyricsViewProps> = ({ songUrl, onBackClick }) => {
             transition: 'all 0.2s',
             fontSize: '15px',
             fontWeight: 'bold',
+            width: isMobile ? '100%' : 'auto',
           }}
           onMouseEnter={(e) => {
             if (!processingAI && (!translation || !isExplaining)) {
@@ -329,12 +362,13 @@ const LyricsView: React.FC<LyricsViewProps> = ({ songUrl, onBackClick }) => {
         </button>
       </div>
 
-      {/* Layout de duas colunas com sombras e melhor espaçamento */}
+      {/* Layout responsivo de colunas com sombras e melhor espaçamento */}
       <div
         style={{
           display: 'grid',
-          gridTemplateColumns: translation || processingAI ? '1fr 1fr' : '1fr',
-          gap: '32px',
+          gridTemplateColumns:
+            (translation || processingAI) && !isMobile ? '1fr 1fr' : '1fr',
+          gap: isMobile ? '24px' : '32px',
           maxWidth: '1400px',
           margin: '0 auto',
         }}
@@ -344,7 +378,7 @@ const LyricsView: React.FC<LyricsViewProps> = ({ songUrl, onBackClick }) => {
           style={{
             backgroundColor: '#333',
             borderRadius: '12px',
-            padding: '28px',
+            padding: isMobile ? '20px' : '28px',
             boxShadow: '0 8px 20px rgba(0,0,0,0.2)',
             animation: 'fadeIn 0.5s ease-out',
           }}
@@ -352,9 +386,9 @@ const LyricsView: React.FC<LyricsViewProps> = ({ songUrl, onBackClick }) => {
           <h2
             style={{
               marginTop: 0,
-              marginBottom: '20px',
+              marginBottom: isMobile ? '16px' : '20px',
               color: '#eee',
-              fontSize: '22px',
+              fontSize: isMobile ? '20px' : '22px',
               borderBottom: '1px solid #444',
               paddingBottom: '10px',
             }}
@@ -363,7 +397,9 @@ const LyricsView: React.FC<LyricsViewProps> = ({ songUrl, onBackClick }) => {
           </h2>
           <div
             style={{
-              maxHeight: 'calc(100vh - 280px)',
+              maxHeight: isMobile
+                ? 'calc(60vh - 180px)'
+                : 'calc(100vh - 280px)',
               overflowY: 'auto',
               paddingRight: '16px',
               scrollbarWidth: 'thin',
@@ -395,7 +431,7 @@ const LyricsView: React.FC<LyricsViewProps> = ({ songUrl, onBackClick }) => {
               style={{
                 whiteSpace: 'pre-wrap',
                 fontFamily: 'inherit',
-                fontSize: '16px',
+                fontSize: isMobile ? '15px' : '16px',
                 lineHeight: '1.8',
                 margin: 0,
                 color: '#ddd',
@@ -412,7 +448,7 @@ const LyricsView: React.FC<LyricsViewProps> = ({ songUrl, onBackClick }) => {
             style={{
               backgroundColor: '#333',
               borderRadius: '12px',
-              padding: '28px',
+              padding: isMobile ? '20px' : '28px',
               boxShadow: '0 8px 20px rgba(0,0,0,0.2)',
               animation: 'fadeIn 0.5s ease-out',
             }}
@@ -420,9 +456,9 @@ const LyricsView: React.FC<LyricsViewProps> = ({ songUrl, onBackClick }) => {
             <h2
               style={{
                 marginTop: 0,
-                marginBottom: '20px',
+                marginBottom: isMobile ? '16px' : '20px',
                 color: '#eee',
-                fontSize: '22px',
+                fontSize: isMobile ? '20px' : '22px',
                 borderBottom: '1px solid #444',
                 paddingBottom: '10px',
               }}
@@ -431,7 +467,9 @@ const LyricsView: React.FC<LyricsViewProps> = ({ songUrl, onBackClick }) => {
             </h2>
             <div
               style={{
-                maxHeight: 'calc(100vh - 280px)',
+                maxHeight: isMobile
+                  ? 'calc(60vh - 180px)'
+                  : 'calc(100vh - 280px)',
                 overflowY: 'auto',
                 paddingRight: '16px',
               }}
@@ -442,7 +480,7 @@ const LyricsView: React.FC<LyricsViewProps> = ({ songUrl, onBackClick }) => {
                   className="markdown-content"
                   style={{
                     color: '#ddd',
-                    fontSize: '16px',
+                    fontSize: isMobile ? '15px' : '16px',
                     lineHeight: '1.8',
                   }}
                 >
@@ -455,9 +493,15 @@ const LyricsView: React.FC<LyricsViewProps> = ({ songUrl, onBackClick }) => {
                       margin-top: 24px;
                       margin-bottom: 16px;
                     }
-                    .markdown-content h1 { font-size: 22px; }
-                    .markdown-content h2 { font-size: 20px; }
-                    .markdown-content h3 { font-size: 18px; }
+                    .markdown-content h1 { font-size: ${
+                      isMobile ? '20px' : '22px'
+                    }; }
+                    .markdown-content h2 { font-size: ${
+                      isMobile ? '18px' : '20px'
+                    }; }
+                    .markdown-content h3 { font-size: ${
+                      isMobile ? '16px' : '18px'
+                    }; }
                     .markdown-content p { margin-bottom: 16px; }
                     .markdown-content strong { color: #fff; }
                     .markdown-content blockquote {
@@ -468,7 +512,7 @@ const LyricsView: React.FC<LyricsViewProps> = ({ songUrl, onBackClick }) => {
                       font-style: italic;
                     }
                     .markdown-content ul, .markdown-content ol {
-                      padding-left: 24px;
+                      padding-left: ${isMobile ? '16px' : '24px'};
                     }
                     .markdown-content li {
                       margin-bottom: 8px;
@@ -486,7 +530,7 @@ const LyricsView: React.FC<LyricsViewProps> = ({ songUrl, onBackClick }) => {
                   style={{
                     whiteSpace: 'pre-wrap',
                     fontFamily: 'inherit',
-                    fontSize: '16px',
+                    fontSize: isMobile ? '15px' : '16px',
                     lineHeight: '1.8',
                     margin: 0,
                     color: '#ddd',
@@ -503,12 +547,12 @@ const LyricsView: React.FC<LyricsViewProps> = ({ songUrl, onBackClick }) => {
               style={{
                 backgroundColor: '#333',
                 borderRadius: '12px',
-                padding: '28px',
+                padding: isMobile ? '20px' : '28px',
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent: 'center',
-                minHeight: '300px',
+                minHeight: isMobile ? '200px' : '300px',
                 boxShadow: '0 8px 20px rgba(0,0,0,0.2)',
                 animation: 'fadeIn 0.5s ease-out',
               }}
@@ -525,7 +569,9 @@ const LyricsView: React.FC<LyricsViewProps> = ({ songUrl, onBackClick }) => {
                   marginBottom: '20px',
                 }}
               ></div>
-              <p style={{ fontSize: '16px', color: '#ddd' }}>
+              <p
+                style={{ fontSize: '16px', color: '#ddd', textAlign: 'center' }}
+              >
                 {isExplaining
                   ? 'A IA está analisando a letra...'
                   : 'A IA está traduzindo a letra...'}
@@ -536,6 +582,7 @@ const LyricsView: React.FC<LyricsViewProps> = ({ songUrl, onBackClick }) => {
                   color: '#999',
                   marginTop: '12px',
                   textAlign: 'center',
+                  padding: isMobile ? '0 10px' : '0',
                 }}
               >
                 Isso pode levar alguns segundos, dependendo do tamanho da letra.

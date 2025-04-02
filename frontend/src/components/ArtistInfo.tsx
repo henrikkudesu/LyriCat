@@ -30,6 +30,25 @@ const ArtistInfo: React.FC<ArtistInfoProps> = ({ artistName }) => {
   const [loadingTracks, setLoadingTracks] = useState(false);
   const [error, setError] = useState('');
   const [playingTrack, setPlayingTrack] = useState<string | null>(null);
+  const [isMobile, setIsMobile] = useState<boolean>(false);
+
+  useEffect(() => {
+    // Função para verificar e atualizar o estado conforme o tamanho da tela
+    const checkIsMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    // Verificar inicialmente
+    checkIsMobile();
+
+    // Adicionar listener para redimensionamento
+    window.addEventListener('resize', checkIsMobile);
+
+    // Cleanup
+    return () => {
+      window.removeEventListener('resize', checkIsMobile);
+    };
+  }, []);
 
   useEffect(() => {
     if (!artistName) return;
@@ -177,10 +196,13 @@ const ArtistInfo: React.FC<ArtistInfoProps> = ({ artistName }) => {
       <div
         style={{
           display: 'flex',
+          flexDirection: isMobile ? 'column' : 'row',
           gap: '20px',
           marginBottom: '24px',
           alignItems: 'center',
-          flexWrap: 'wrap',
+          justifyContent: isMobile ? 'center' : 'flex-start',
+          textAlign: isMobile ? 'center' : 'left',
+          width: '100%',
         }}
       >
         {artistInfo.image_url ? (
@@ -213,14 +235,20 @@ const ArtistInfo: React.FC<ArtistInfoProps> = ({ artistName }) => {
             🎵
           </div>
         )}
-        <div style={{ flex: '1', minWidth: '170px' }}>
-          {' '}
-          {/* Garante espaço mínimo */}
+        <div
+          style={{
+            flex: isMobile ? 'unset' : '1',
+            minWidth: '170px',
+            width: isMobile ? '100%' : 'auto',
+          }}
+        >
           <h2
-            style={{ margin: '0 0 8px 0', fontSize: 'clamp(20px, 5vw, 28px)' }}
+            style={{
+              margin: '0 0 8px 0',
+              fontSize: 'clamp(20px, 5vw, 28px)',
+              textAlign: isMobile ? 'center' : 'left',
+            }}
           >
-            {' '}
-            {/* Fonte responsiva */}
             {artistInfo.name}
           </h2>
           <p
@@ -228,6 +256,7 @@ const ArtistInfo: React.FC<ArtistInfoProps> = ({ artistName }) => {
               margin: '0 0 8px 0',
               color: '#aaa',
               fontSize: 'clamp(12px, 3vw, 14px)',
+              textAlign: isMobile ? 'center' : 'left',
             }}
           >
             {artistInfo.genres && artistInfo.genres.length > 0
@@ -237,8 +266,9 @@ const ArtistInfo: React.FC<ArtistInfoProps> = ({ artistName }) => {
           <div
             style={{
               display: 'flex',
-              flexWrap: 'wrap', // Permite quebra em mobile
+              flexWrap: 'wrap',
               gap: '16px',
+              justifyContent: isMobile ? 'center' : 'flex-start',
             }}
           >
             <div
@@ -246,7 +276,7 @@ const ArtistInfo: React.FC<ArtistInfoProps> = ({ artistName }) => {
                 display: 'flex',
                 alignItems: 'center',
                 gap: '6px',
-                fontSize: 'clamp(12px, 3vw, 14px)', // Fonte responsiva
+                fontSize: 'clamp(12px, 3vw, 14px)',
               }}
             >
               <span>👥</span>
@@ -262,7 +292,7 @@ const ArtistInfo: React.FC<ArtistInfoProps> = ({ artistName }) => {
                 display: 'flex',
                 alignItems: 'center',
                 gap: '6px',
-                fontSize: 'clamp(12px, 3vw, 14px)', // Fonte responsiva
+                fontSize: 'clamp(12px, 3vw, 14px)',
               }}
             >
               <span>🔥</span>
@@ -285,6 +315,7 @@ const ArtistInfo: React.FC<ArtistInfoProps> = ({ artistName }) => {
               marginBottom: '16px',
               borderBottom: '1px solid #444',
               paddingBottom: '8px',
+              textAlign: isMobile ? 'center' : 'left',
             }}
           >
             Músicas populares no Spotify
@@ -292,10 +323,12 @@ const ArtistInfo: React.FC<ArtistInfoProps> = ({ artistName }) => {
           <div
             style={{
               display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))',
-              gap: '16px',
-              justifyContent: 'center', // Centraliza os cards
-              justifyItems: 'center', // Centraliza cada item individual
+              gridTemplateColumns: isMobile
+                ? 'repeat(auto-fit, minmax(120px, 1fr))'
+                : 'repeat(auto-fit, minmax(150px, 1fr))',
+              gap: isMobile ? '10px' : '16px',
+              justifyContent: 'center',
+              justifyItems: 'center',
             }}
           >
             {topTracks.slice(0, 6).map((track) => (
@@ -310,8 +343,8 @@ const ArtistInfo: React.FC<ArtistInfoProps> = ({ artistName }) => {
                   boxShadow: '0 4px 8px rgba(0,0,0,0.2)',
                   transform:
                     playingTrack === track.id ? 'translateY(-5px)' : 'none',
-                  width: '100%', // Garantir largura correta mesmo quando centralizado
-                  maxWidth: '150px', // Limitar largura máxima
+                  width: '100%',
+                  maxWidth: isMobile ? '120px' : '150px',
                 }}
                 onClick={() =>
                   track.preview_url &&
@@ -338,28 +371,32 @@ const ArtistInfo: React.FC<ArtistInfoProps> = ({ artistName }) => {
                     alt={track.name}
                     style={{
                       width: '100%',
-                      height: '150px', // Reduzido para ficar mais compacto
+                      height: isMobile ? '120px' : '150px',
                       objectFit: 'cover',
                       display: 'block',
                     }}
                     loading="lazy"
                   />
                 </div>
-                <div style={{ padding: '10px' }}>
+                <div
+                  style={{
+                    padding: isMobile ? '8px' : '10px',
+                  }}
+                >
                   <div
                     style={{
                       fontWeight: 'bold',
                       whiteSpace: 'nowrap',
                       overflow: 'hidden',
                       textOverflow: 'ellipsis',
-                      fontSize: '14px',
+                      fontSize: isMobile ? '13px' : '14px',
                     }}
                   >
                     {track.name}
                   </div>
                   <div
                     style={{
-                      fontSize: '12px',
+                      fontSize: isMobile ? '11px' : '12px',
                       color: '#aaa',
                       whiteSpace: 'nowrap',
                       overflow: 'hidden',
@@ -383,7 +420,7 @@ const ArtistInfo: React.FC<ArtistInfoProps> = ({ artistName }) => {
                       textAlign: 'center',
                       padding: '8px 0',
                       fontSize: '12px',
-                      color: '#1DB954', // Cor do Spotify
+                      color: '#1DB954',
                       textDecoration: 'none',
                       background: '#333',
                       transition: 'background 0.2s',

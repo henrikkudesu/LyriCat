@@ -19,6 +19,7 @@ const App: React.FC = () => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [recentSearches, setRecentSearches] = useState<string[]>([]);
   const [searchTerm, setSearchTerm] = useState<string>('');
+  const [isMobile, setIsMobile] = useState<boolean>(false);
 
   useEffect(() => {
     // Carregar buscas recentes do localStorage
@@ -26,6 +27,22 @@ const App: React.FC = () => {
     if (savedSearches) {
       setRecentSearches(JSON.parse(savedSearches));
     }
+
+    // Função para verificar e atualizar o estado conforme o tamanho da tela
+    const checkIsMobile = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    // Verificar inicialmente
+    checkIsMobile();
+
+    // Adicionar listener para redimensionamento
+    window.addEventListener('resize', checkIsMobile);
+
+    // Cleanup
+    return () => {
+      window.removeEventListener('resize', checkIsMobile);
+    };
   }, []);
 
   const handleBackToList = () => {
@@ -102,7 +119,7 @@ const App: React.FC = () => {
             style={{
               maxWidth: '1200px',
               margin: '0 auto',
-              padding: '20px',
+              padding: isMobile ? '16px' : '20px',
               animation: 'fadeIn 0.5s ease-in-out',
             }}
           >
@@ -111,9 +128,9 @@ const App: React.FC = () => {
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                marginBottom: '40px',
+                marginBottom: isMobile ? '30px' : '40px',
                 gap: '16px',
-                padding: '20px 0',
+                padding: isMobile ? '16px 0' : '20px 0',
                 borderBottom: '1px solid rgba(255,255,255,0.1)',
               }}
             >
@@ -121,7 +138,7 @@ const App: React.FC = () => {
                 src={catGuitarLogo}
                 alt="Logo LyriCat"
                 style={{
-                  height: '80px',
+                  height: isMobile ? '70px' : '80px',
                   filter: 'drop-shadow(0 0 10px rgba(255,255,255,0.2))',
                   transition: 'transform 0.3s',
                   cursor: 'pointer',
@@ -147,7 +164,7 @@ const App: React.FC = () => {
                     'linear-gradient(90deg, #9D50BB 0%, #6E48AA 100%)',
                   WebkitBackgroundClip: 'text',
                   WebkitTextFillColor: 'transparent',
-                  fontSize: '2.5rem',
+                  fontSize: isMobile ? '2rem' : '2.5rem',
                 }}
               >
                 LyriCat
@@ -157,10 +174,10 @@ const App: React.FC = () => {
             <div
               style={{
                 background: 'rgba(0,0,0,0.2)',
-                padding: '24px',
+                padding: isMobile ? '20px' : '24px',
                 borderRadius: '12px',
                 boxShadow: '0 4px 20px rgba(0,0,0,0.3)',
-                marginBottom: '30px',
+                marginBottom: isMobile ? '24px' : '30px',
               }}
             >
               <ArtistSearch
@@ -189,12 +206,28 @@ const App: React.FC = () => {
 
               {/* Sempre mostrar as buscas recentes */}
               {recentSearches.length > 0 && (
-                <div style={{ marginTop: '16px' }}>
-                  <p style={{ fontSize: '14px', opacity: 0.7 }}>
+                <div
+                  style={{
+                    marginTop: '16px',
+                    textAlign: isMobile ? 'center' : 'left',
+                  }}
+                >
+                  <p
+                    style={{
+                      fontSize: '14px',
+                      opacity: 0.7,
+                      marginBottom: isMobile ? '12px' : '8px',
+                    }}
+                  >
                     Buscas recentes:
                   </p>
                   <div
-                    style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}
+                    style={{
+                      display: 'flex',
+                      flexWrap: 'wrap',
+                      gap: '8px',
+                      justifyContent: isMobile ? 'center' : 'flex-start',
+                    }}
                   >
                     {recentSearches.map((search) => (
                       <button
@@ -231,7 +264,7 @@ const App: React.FC = () => {
               <div
                 style={{
                   textAlign: 'center',
-                  padding: '40px',
+                  padding: isMobile ? '30px' : '40px',
                   color: 'rgba(255,255,255,0.7)',
                 }}
               >
@@ -257,9 +290,9 @@ const App: React.FC = () => {
                 {songs.length > 0 ? (
                   <div
                     style={{
-                      marginTop: '32px',
+                      marginTop: isMobile ? '24px' : '32px',
                       background: 'rgba(0,0,0,0.2)',
-                      padding: '24px',
+                      padding: isMobile ? '20px' : '24px',
                       borderRadius: '12px',
                       boxShadow: '0 4px 20px rgba(0,0,0,0.3)',
                     }}
@@ -271,19 +304,19 @@ const App: React.FC = () => {
                     <div
                       style={{
                         textAlign: 'center',
-                        marginTop: '80px',
+                        marginTop: isMobile ? '60px' : '80px',
                         color: 'rgba(255,255,255,0.6)',
-                        padding: '60px 20px',
+                        padding: isMobile ? '40px 16px' : '60px 20px',
                         background: 'rgba(255,255,255,0.03)',
                         borderRadius: '12px',
                       }}
                     >
-                      <p style={{ fontSize: '18px' }}>
+                      <p style={{ fontSize: isMobile ? '16px' : '18px' }}>
                         Digite o nome de um artista para buscar suas músicas.
                       </p>
                       <p
                         style={{
-                          fontSize: '14px',
+                          fontSize: isMobile ? '13px' : '14px',
                           marginTop: '10px',
                           opacity: 0.7,
                         }}
@@ -305,13 +338,13 @@ const App: React.FC = () => {
         )}
       </div>
 
-      {/* Footer - agora fica fora do componente condicional, garantindo que sempre apareça */}
+      {/* Footer responsivo */}
       <footer
         style={{
           width: '100%',
-          padding: '16px 0',
+          padding: isMobile ? '16px 12px' : '16px 0',
           textAlign: 'center',
-          fontSize: '14px',
+          fontSize: isMobile ? '13px' : '14px',
           color: 'rgba(255,255,255,0.6)',
           borderTop: '1px solid rgba(255,255,255,0.1)',
           background: 'rgba(0,0,0,0.2)',
@@ -322,12 +355,13 @@ const App: React.FC = () => {
         <div
           style={{
             display: 'flex',
+            flexDirection: isMobile ? 'column' : 'row',
             alignItems: 'center',
             justifyContent: 'center',
-            gap: '8px',
+            gap: isMobile ? '10px' : '8px',
           }}
         >
-          Desenvolvido por Leonardo Nascimento{' '}
+          <span>Desenvolvido por Leonardo Nascimento</span>
           <a
             href="https://github.com/henrikkudesu"
             target="_blank"
@@ -344,8 +378,8 @@ const App: React.FC = () => {
             onMouseOut={(e) => (e.currentTarget.style.color = '#646cff')}
           >
             <svg
-              height="20"
-              width="20"
+              height={isMobile ? '18' : '20'}
+              width={isMobile ? '18' : '20'}
               viewBox="0 0 16 16"
               style={{ fill: 'currentColor' }}
             >
